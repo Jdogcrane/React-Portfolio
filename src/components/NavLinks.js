@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 const NavLink = ({ currentPage, handlePageChange, page }) => {
   const onClick = () => handlePageChange(page);
-  const to = "/" + (page === 'Home' ? '' : page.toLowerCase());
+  const to = "/" + (page === 'About' ? '' : page.toLowerCase());
   const className = currentPage === page ? 'nav-link active' : 'nav-link';
   const data = { onClick, to, className };
 
