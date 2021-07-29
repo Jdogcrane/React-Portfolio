@@ -12,6 +12,7 @@ const NavLink = ({ currentPage, handlePageChange, page }) => {
   return (
     <li className="nav-item">
       <Link {...data}>{page}</Link>
+      
     </li>
   );
 };
