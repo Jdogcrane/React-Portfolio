@@ -1,21 +1,53 @@
 import React from 'react';
-
+import { Button, Card, Row, Col, Parallax } from 'react-materialize';
 export default function About() {
   return (
     <>
-      <h1>About Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+     <Parallax
+    image={<img alt="backdrop" src="https://cdn.discordapp.com/attachments/709148993262977068/870349048568242236/backdrop.jpg"/>}
+    options={{
+      responsiveThreshold: 0
+    }}
+  />
+      <div>
+        <div className="container border">
+          <div className="container center">
+            <h2 id="aboutme" className="header white-text">About Me</h2>
+          </div>
+          <div className="container center">
+            <img className="me circle z-depth-3" src="https://cdn.discordapp.com/attachments/709148993262977068/870349043782537236/me.png" alt="me" href="#aboutme" />
+          </div>
+          <div className="center container">
+
+            <a className="waves-effect waves-light btn-floating social" rel="noreferrer" href="https://github.com/Jdogcrane" target="_blank">
+              <i className="fab fa-github black white-text"></i></a>
+
+            <a className="waves-effect waves-light btn-floating social"
+              href="https://www.linkedin.com/in/joshua-crane-911532210/" rel="noreferrer" target="_blank">
+              <i className="fab fa-linkedin black white-text"></i></a>
+
+            <a className="waves-effect waves-light btn-floating social" rel="noreferrer" href="https://www.instagram.com/joshua_crane/"
+              target="_blank">
+              <i className="fab fa-instagram black white-text"></i></a>
+
+            <a className="waves-effect waves-light btn-floating social"
+              href="https://open.spotify.com/user/jdogcrane?si=ca332a64d48c4b49" rel="noreferrer" target="_blank">
+              <i className="fab fa-spotify black white-text"></i></a>
+          </div>
+
+
+          <div className="container">
+            <p className="grey-text text-lighten-2 flow-text">I'm currently in a 3 month program at <a
+              href="https://www.uncc.edu/" className="link"> UNCC </a> to learn to become a certified Full-Stack Web
+              Developer. <br /> <br /> Over my career I have
+              developed strong social skills with people from many walks of life.
+              Learned to become adaptable and teachable.
+              I strive to lead others to success with me and not behind me.
+              Maintained a very professional work ethic and strive to do better attitude.
+              Learned to handle stressful fast-paced environments and how to structure priorities.</p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

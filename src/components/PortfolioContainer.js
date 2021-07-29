@@ -6,6 +6,9 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Footer from './Footer';
+import '../Styles/style.css';
+import 'materialize-css';
 
 const PortfolioContainer = () => {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -15,6 +18,8 @@ const PortfolioContainer = () => {
   const pages = Object.keys(pageData);
   const data = { pages, currentPage, handlePageChange };
   
+
+  
   return (
     <BrowserRouter>
       <NavTabs {...data} />
@@ -22,6 +27,7 @@ const PortfolioContainer = () => {
       <Route path="/Portfolio" exact component={Portfolio} />
       <Route path="/Resume" exact component={Resume} />
       <Route path="/contact" exact component={Contact} />
+      <Footer />
     </BrowserRouter>
   );
 };
