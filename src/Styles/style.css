@@ -20,10 +20,7 @@
     .titleSmall {
         display: inline-block !important;
     }
-    
 }
-
-
 
 .caption {
     background-color: rgba(0, 0, 0, 0.63);
@@ -86,7 +83,6 @@ body {
 
 .border {
     max-width: 800px;
-    
     border-left: 5px transparent rgba(0, 0, 0, 0.103);
     border-right: 5px transparent rgba(0, 0, 0, 0.103);
     border-top: none;
@@ -108,7 +104,6 @@ body {
     color: white;
     padding: 10px;
 }
-
 
 p {
     margin: 0px;
@@ -132,8 +127,36 @@ h2 {
     text-decoration: underline;
 }
 
-.sidenav-overlay{
-    z-index: 13 !important;
-    display: block;
-    opacity: 1;
+.sidenav-overlay {
+    z-index: 996 !important;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    width: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    width: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.spacing1 {
+    margin: 1px
 }

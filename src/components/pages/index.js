@@ -1,8 +1,8 @@
 import About from './About';
-import Portfolio from './Portfolio';
+import Projects from './Projects';
 import Resume from './Resume';
 import Contact from './Contact';
 
-const pages = { About, Portfolio, Resume, Contact };
+const pages = { About, Projects, Resume, Contact };
 
 export default pages;

@@ -1,80 +1,83 @@
 import React from 'react';
-import NavLinks from './NavLinks';
-import 'materialize-css';
-import { Button, SideNav, SideNavItem, Icon } from 'react-materialize';
-const NavTabs = (props) => {
+import { Button, SideNav, SideNavItem, Icon, Parallax } from 'react-materialize';
+import { Link } from 'react-router-dom';
+
+const NavTabs = () => {
 
   return (
     <div>
       <style>
 
       </style>
-
-      <div class="navbar-fixed">
-        <nav class="nav">
-      <SideNav
-        id="SideNav-10"
-        options={{
-          draggable: true
-        }}
-        trigger={<Button node="button">SIDE NAV DEMO</Button>}
-      >
-        <SideNavItem
-          user={{
-            background: 'https://placeimg.com/640/480/tech',
-            email: 'jdandturk@gmail.com',
-            image: 'static/media/react-materialize-logo.824c6ea3.svg',
-            name: 'John Doe'
-          }}
-          userView
-        />
-        <SideNavItem
-          href="#!icon"
-          icon={<Icon>cloud</Icon>}
-        >
-          First Link With Icon
-        </SideNavItem>
-        <SideNavItem href="#!second">
-          Second Link
-        </SideNavItem>
-        <SideNavItem divider />
-        <SideNavItem subheader>
-          Subheader
-        </SideNavItem>
-        <SideNavItem
-          href="#!third"
-          waves
-        >
-          Third Link With Waves
-        </SideNavItem>
-      </SideNav>
-          <div class="container">
-            <div class="nav-wrapper">
-              <a href="https://github.com/Jdogcrane" id="home" class="titleBig" target="_blank">Joshua Crane</a>
-              <a href="https://github.com/Jdogcrane" target="_blank" class="titleSmall">Josh</a>
-              <a data-target="mobile-nav" class="sidenav-trigger">
-                <i class="material-icons white-text circle btn-floating center black-text ">menu</i>
-              </a>
-              <ul class="right hide-on-med-and-down">
-                <NavLinks {...props} />
-                <li>
-                  <a href="#home">Home</a>
-                </li>
-                <li>
-                  <a href="#aboutme">About Me</a>
-                </li>
-                <li>
-                  <a class="white-text" href="#projects">Projects</a>
-                </li>
-                <li>
-                  <a href="https://jdogcrane.github.io/Portfolio_Website/assests/resume/resume1.pdf"
-                    target="_blank">Resume</a>
-                </li>
-              </ul>
+      <div className="navbar-fixed">
+        <nav className="nav ">
+          <SideNav
+            id="SideNav-10"
+            options={{
+              draggable: true
+            }}
+            trigger={<Button node="button">SIDE NAV DEMO</Button>}
+          >
+            <SideNavItem
+              user={{
+                background: 'https://placeimg.com/640/480/tech',
+                email: 'jdandturk@gmail.com',
+                image: 'static/media/react-materialize-logo.824c6ea3.svg',
+                name: 'John Doe'
+              }}
+              userView
+            />
+            <SideNavItem
+              href="#!icon"
+              icon={<Icon>cloud</Icon>}
+            >
+              First Link With Icon
+            </SideNavItem>
+            <SideNavItem href="#!second">
+              Second Link
+            </SideNavItem>
+            <SideNavItem divider />
+            <SideNavItem subheader>
+              Subheader
+            </SideNavItem>
+            <SideNavItem
+              href="#!third"
+              waves
+            >
+              Third Link With Waves
+            </SideNavItem>
+          </SideNav>
+          <div>
+            <div className="container animate__animated animate__backInDown">
+              <div className="nav-wrapper">
+              <Link to="https://github.com/Jdogcrane" id="home" className="titleBig" target="_blank">Joshua Crane</Link>
+              <Link to="https://github.com/Jdogcrane" target="_blank" className="titleSmall">Josh</Link>
+              <Link data-target="mobile-nav" className="sidenav-trigger">
+                  <i className="material-icons white-text circle btn-floating center black-text ">menu</i>
+                </Link>
+                <ul className="right hide-on-med-and-down">
+                  <li>
+                    <Link to="/" >Home</Link>
+                  </li>
+              
+                  <li>
+                    <Link to="/projects" >Projects</Link>
+                  </li>
+                  <li>
+                    <Link to="/resume">Resume</Link>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </nav>
       </div>
+      <Parallax className="animate__fadeIn animate__animated"
+        image={<img alt="backdrop" src="https://cdn.discordapp.com/attachments/709148993262977068/870349048568242236/backdrop.jpg" />}
+        options={{
+          responsiveThreshold: 0
+        }}
+      />
     </div>
   );
 }
