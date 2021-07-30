@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+[Deployed site](https://ancient-coast-47951.herokuapp.com/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 style="text-align: center;">Portfolio Website</h1>
 
-## Available Scripts
+[[Deployed site]](https://ancient-coast-47951.herokuapp.com/)
 
-In the project directory, you can run:
+[[Site-Preview]](#Site-Preview)
 
-### `yarn start`
+## General Overview: 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+>Notes: This is an updated version of my old portfolio website
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+<p style="font-family:georgia"> 
+Today I made a deployable website portfolio. 
+Its goal was to present a portfolio style website that can be deployed to git hub and have a handful of functions.
+I have implemented those functions into my site and more! With an addition of a dark or light theme button choice I feel I have exceeded in expectations for myself.
+<p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Table of Contents:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+HTML Additions
+- [Head](#Head)
+- [Header](#Head)
+- [Body](#Body)
+- [Section](#Section)
+- [Footer](#Footer)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+CSS Additions
+- [CSSBody](#CSSBody)
+- [CSSSection](#CSSSection)
+- [CSSFooter](#CSSFooter)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+<h3 style="text-align:center;">HTML-Additions</h3>
 
-### `yarn eject`
+---
+### Head:
+* added title
+* added meta for compatibility
+* added meta for viewports
+* added style sheet link
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Header:
+* added banner with image
+* added navbar
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Section:
+* added button for dark theme
+* added button for light theme
+* added id and h2 for about me section
+* added list for about me
+* added labels for my images
+* added images and spotify embed
+* added ids attached to imgs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Footer:
+* added contact info and id to footer
+---
+<h3 style="text-align:center;">CSS-Additions</h3>
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### CSSBody:
+* added font style 
+* added navbar styling and positioning
+* added navbar anchor styling and positioning
+* added navbar hover state
+* added body styling
 
-### Code Splitting
+### CSSSection:
+* added portrait img styling
+* added h2 styling
+* added banner img url link
+* added banner styling
+* added project img styling
+* added projects img hover state styling
+* added iframe styling
+* added p styling
+* added repo label styling
+* added spotify label styling
+* added activity label styling
+* added footer styling
+* added list styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### CSSFooter:
+* added footer styling
+* added address anchor styling
+* added hover state styling
+* added media styling changes when width is met
+* added button styling
 
-### Analyzing the Bundle Size
+>Notes: updated version of my old portfolio website
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Site Preview
+![alt link= https://cdn.discordapp.com/attachments/709148993262977068/842585534051385344/GuYlOJHwbr.gif](assests/images/preview.gif)
