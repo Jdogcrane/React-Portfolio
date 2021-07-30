@@ -7,7 +7,7 @@ export default function About() {
       <div>
         <div className="container border animate__animated animate__backInUp">
           <div className="container center">
-            <h2 id="aboutme" className="header white-text">About Me</h2>
+            <p className="flow-text white-text" >About Me</p>
           </div>
           <div className="container center">
             <img className="me circle z-depth-3" src="https://cdn.discordapp.com/attachments/709148993262977068/870349043782537236/me.png" alt="me" href="#aboutme" />

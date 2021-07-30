@@ -1,7 +1,12 @@
+:root {
+    --primary-theme: -webkit-linear-gradient(left, #fe7523, #4c1554);
+    --secondary-theme: -webkit-linear-gradient(left, #fe732379, #4c155477);
+  }
 .me {
     max-width: 150px;
     border: solid 1px black;
     background: -webkit-linear-gradient(left, #00000085, #700f548e);
+    
 }
 
 .titleSmall {
@@ -29,7 +34,9 @@
 }
 
 body {
-    background: -webkit-linear-gradient(left, #fd873f, #710954);
+    background: var(--primary-theme);
+    
+    text-align: unset;
 }
 
 .collapsible {
@@ -37,16 +44,16 @@ body {
 }
 
 .parallax-container {
-    height: 500px;
+    height: 23rem;
     box-shadow: 10px 2px 50px 20px rgba(0, 0, 0, 0.514);
 }
 
 .parallax-container2 {
-    height: 400px;
+    height: 20rem;
 }
 
 .nav {
-    background: -webkit-linear-gradient(left, rgba(71, 38, 18, 0.486), #710954);
+    background: var(--secondary-theme);
 }
 
 .slider {
@@ -131,6 +138,23 @@ h2 {
     z-index: 996 !important;
 }
 
+.sidenav{
+    background: rgb(0, 0, 0);
+    border: solid rgba(207, 207, 207, 0.24) 1px;
+    border-left: none;
+    border-top: none;
+}
+
+.sidenav li>a {
+    color: #ffffff !important;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+
 /* width */
 
 ::-webkit-scrollbar {
@@ -159,4 +183,12 @@ h2 {
 
 .spacing1 {
     margin: 1px
+}
+
+.spacingFooter {
+    margin-top: 5rem;
+}
+
+.spacingBottom {
+    margin-bottom: 5rem;
 }
