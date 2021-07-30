@@ -1,8 +1,12 @@
 <h1 style="text-align: center;">React Portfolio Website V2</h1>
 
-[[Deployed site]](https://ancient-coast-47951.herokuapp.com/)
+><h1 style="text-align: center;">----This Site is a WIP----</h1>
 
-[[Site-Preview]](#Site-Preview)
+<h1 style="text-align: center;"><a href="https://ancient-coast-47951.herokuapp.com/">[Deployed React Portfolio V2]</a></h1>
+
+><h1 style="text-align: center;">----This Site is a WIP----</h1>
+
+<!-- [[Site-Preview]](#Site-Preview) -->
 
 ## General Overview: 
 
@@ -91,4 +95,4 @@ CSS Additions
 >Notes: updated version of my old portfolio website V2
 
 # Site Preview
-![alt link= https://cdn.discordapp.com/attachments/709148993262977068/842585534051385344/GuYlOJHwbr.gif](assests/images/preview.gif)
+
