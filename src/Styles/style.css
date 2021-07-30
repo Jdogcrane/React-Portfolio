@@ -48,6 +48,11 @@ body {
     box-shadow: 10px 2px 50px 20px rgba(0, 0, 0, 0.514);
 }
 
+.projects-container {
+    box-shadow: 10px 2px 50px 20px rgba(0, 0, 0, 0.514);
+    margin-top: 2rem;
+}
+
 .parallax-container2 {
     height: 20rem;
 }
@@ -191,4 +196,17 @@ h2 {
 
 .spacingBottom {
     margin-bottom: 5rem;
+}
+
+.projects {
+    
+    margin-top: 5rem;
+}
+
+.projectBlock {
+    margin-bottom: 62rem;
+}
+
+.spacingProjectFull {
+    margin-top: 27rem;
 }

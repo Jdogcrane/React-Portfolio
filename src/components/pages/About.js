@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, Card, Row, Col, Parallax } from 'react-materialize';
 export default function About() {
   return (
     <>
