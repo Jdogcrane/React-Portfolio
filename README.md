@@ -1,6 +1,4 @@
-[Deployed site](https://ancient-coast-47951.herokuapp.com/)
-
-<h1 style="text-align: center;">Portfolio Website</h1>
+<h1 style="text-align: center;">React Portfolio Website V2</h1>
 
 [[Deployed site]](https://ancient-coast-47951.herokuapp.com/)
 
@@ -8,13 +6,10 @@
 
 ## General Overview: 
 
->Notes: This is an updated version of my old portfolio website
-
-
 <p style="font-family:georgia"> 
 Today I made a deployable website portfolio. 
-Its goal was to present a portfolio style website that can be deployed to git hub and have a handful of functions.
-I have implemented those functions into my site and more! With an addition of a dark or light theme button choice I feel I have exceeded in expectations for myself.
+Its goal was to present a react portfolio style website that can be deployed to heroku and have a handful of functions.
+I have implemented those functions into my site and more!
 <p>
 
 
@@ -93,7 +88,7 @@ CSS Additions
 * added media styling changes when width is met
 * added button styling
 
->Notes: updated version of my old portfolio website
+>Notes: updated version of my old portfolio website V2
 
 # Site Preview
 ![alt link= https://cdn.discordapp.com/attachments/709148993262977068/842585534051385344/GuYlOJHwbr.gif](assests/images/preview.gif)
