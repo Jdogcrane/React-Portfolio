@@ -1,6 +1,4 @@
 import React from 'react';
-import { Slider, Slide, Caption, Row, Col, Parallax } from 'react-materialize';
-import { Link } from 'react-router-dom';
 export default function Projects() {
   return (
     <div className="title space1 center container">

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Slider, Slide, Caption, Row, Col, Parallax } from 'react-materialize';
-import * as Scroll from 'react-scroll';
+import { Row, Col } from 'react-materialize';
 import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom';
 export default function About() {
