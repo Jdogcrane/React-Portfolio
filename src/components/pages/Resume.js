@@ -4,7 +4,7 @@ import '../../Styles/Template.css';
 
 export default function Resume() {
   return (
-    <div className="container spacingFooter animate__animated animate__rollIn">
+    <div className="container spacingFooter animate__animated animate__rollIn space spaceDown1">
 
 
 				<div id="doc2" className="yui-t7 margin1 contain2 full hero">

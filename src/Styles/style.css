@@ -31,7 +31,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
-    height: 100rem;
+    height: 110rem;
 }
 
 #parallax-3 {
@@ -79,8 +79,11 @@ body {
 }
 
 .background-color {
-    background: var(--primary-theme);
-    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.363);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.432) 0rem 1rem 5rem 1rem;
 }
 
 .collapsible {
@@ -164,6 +167,8 @@ p {
 .title {
     font-size: 3rem;
 }
+
+.flow-text {}
 
 h2 {
     margin: 0px
@@ -280,6 +285,14 @@ h2 {
 
 .space3 {
     margin-top: 30rem;
+}
+
+.spaceDown {
+    margin-bottom: 5rem;
+}
+
+.spaceDown1 {
+    margin-bottom: 10rem;
 }
 
 .projects {
@@ -445,4 +458,26 @@ h2 {
     padding: 1rem;
     border: solid 1px;
     border-radius: 10px;
+}
+
+.borderBotGNo {
+    border-bottom: solid 1px gray;
+}
+
+.borderBotBNo {
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+
+.outer {
+    position: relative;
+}
+
+.outer .overlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(205, 205, 205, 1) 0%, rgb(182, 182, 182) 25%, rgba(131, 131, 131, 0.788) 50%, rgba(94, 94, 94, 0.705) 75%, rgba(0, 0, 0, 0.836) 100%);
+    opacity: 0.7;
+    top: 0;
 }
