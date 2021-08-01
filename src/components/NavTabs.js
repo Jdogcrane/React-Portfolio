@@ -9,14 +9,14 @@ const NavTabs = () => {
       <style>
 
       </style>
-      <div className="navbar-fixed">
+      <div className="navbar-fixed " id="navbar">
         <nav className="nav ">
           <SideNav
             id="SideNav-10"
             options={{
               draggable: true
             }}
-            trigger={<Button node="button">SIDE NAV DEMO</Button>}
+            trigger={<i className="material-icons white-text circle btn-floating center black-text titleSmall" node="button">menu</i>}
           >
             <SideNavItem
               user={{
@@ -48,13 +48,11 @@ const NavTabs = () => {
             </SideNavItem>
           </SideNav>
           <div>
-            <div className="container animate__animated animate__backInDown">
-              <div className="nav-wrapper">
+            <div className="container  animate__animated animate__backInDown animate__delay-4s">
+              <div className="nav-wrapper ">
                 <a href="https://github.com/Jdogcrane" rel="noreferrer" target="_blank" className="titleBig left">Joshua Crane</a>
                 <Link to="https://github.com/Jdogcrane" target="_blank" className="titleSmall">Josh</Link>
-                <Link data-target="mobile-nav" className="sidenav-trigger">
-                  <i className="material-icons white-text circle btn-floating center black-text ">menu</i>
-                </Link>
+                
                 <ul className="right hide-on-med-and-down">
                   <li>
                     <Link to="/" >Home</Link>
@@ -71,12 +69,7 @@ const NavTabs = () => {
           </div>
         </nav>
       </div>
-      <Parallax className="animate__fadeIn animate__animated"
-        image={<img alt="backdrop" src="https://cdn.discordapp.com/attachments/709148993262977068/870349048568242236/backdrop.jpg" />}
-        options={{
-          responsiveThreshold: 10
-        }}
-      />
+      
     </div>
   );
 }

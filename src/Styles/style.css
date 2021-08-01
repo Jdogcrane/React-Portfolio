@@ -1,12 +1,49 @@
 :root {
-    --primary-theme: -webkit-linear-gradient(left, #fe7523, #4c1554);
-    --secondary-theme: -webkit-linear-gradient(left, #fe732379, #4c155477);
-  }
+    --primary-theme: -webkit-linear-gradient(left, #49949044, #4c155441);
+    --secondary-theme: -webkit-linear-gradient(left, #1cacb179, #4c155477);
+    --animate-delay: 0.2s;
+    --border-space: ;
+}
+
+#parallax-1 {
+    background: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100rem;
+}
+
+/* https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260 City */
+
+#parallax-2 {
+    background: url(https://images.pexels.com/photos/2114014/pexels-photo-2114014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    height: 100rem;
+}
+
+#parallax-3 {
+    background: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    height: 100rem;
+}
+
+.shift-parallax-1 {
+    height: 10rem;
+}
+
 .me {
     max-width: 150px;
     border: solid 1px black;
     background: -webkit-linear-gradient(left, #00000085, #700f548e);
-    
 }
 
 .titleSmall {
@@ -35,21 +72,24 @@
 
 body {
     background: var(--primary-theme);
-    
     text-align: unset;
+}
+
+.background-color {
+    background: var(--primary-theme);
+    border-radius: 20px;
 }
 
 .collapsible {
     max-width: 200px;
 }
 
-.parallax-container {
+.parallax-container-header {
     height: 23rem;
-    box-shadow: 10px 2px 50px 20px rgba(0, 0, 0, 0.514);
+    margin: 0px;
 }
 
 .projects-container {
-    box-shadow: 10px 2px 50px 20px rgba(0, 0, 0, 0.514);
     margin-top: 2rem;
 }
 
@@ -59,6 +99,21 @@ body {
 
 .nav {
     background: var(--secondary-theme);
+}
+
+nav {
+    z-index: 1 !important;
+}
+
+#navbar {
+    transition: top 0.3s;
+}
+
+.navbar-fixed {
+    position: relative;
+    background: black;
+    height: 1px;
+    z-index: 995;
 }
 
 .slider {
@@ -82,43 +137,26 @@ body {
 }
 
 .btn-floating:hover {
-    background-color: rgba(99, 99, 99, 0.342);
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom:rgb(53, 53, 53) solid 1px;
 }
 
-.fab:hover {
-    background-color: rgba(126, 126, 126, 0.534) !important;
+.fab:hover, .fab:focus {
+    background-color: rgba(24, 24, 24, 0) !important;
+    
 }
 
 .shadow {
     text-shadow: 10px 2px 50px 10px rgba(0, 0, 0, 0.514) !important;
 }
 
-.border {
-    max-width: 800px;
-    border-left: 5px transparent rgba(0, 0, 0, 0.103);
-    border-right: 5px transparent rgba(0, 0, 0, 0.103);
-    border-top: none;
-    border-bottom: 5px transparent rgba(0, 0, 0, 0.103);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 10px 2px 50px 10px rgba(0, 0, 0, 0.514);
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-
-.border2 {
-    border: 5px transparent black;
-    margin-top: 100px;
-    box-shadow: 10px 2px 50px 10px rgba(0, 0, 0, 0.514);
-    border-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    color: white;
-    padding: 10px;
-}
 
 p {
     margin: 0px;
+}
+
+.title {
+    font-size: 3rem;
 }
 
 h2 {
@@ -130,8 +168,10 @@ h2 {
     margin-bottom: 0px;
 }
 
-.container {
-    margin-top: 0px;
+.contain1 {
+    margin: 0 auto;
+    max-width: 800px;
+    
 }
 
 .link {
@@ -139,11 +179,12 @@ h2 {
     text-decoration: underline;
 }
 
+
 .sidenav-overlay {
-    z-index: 996 !important;
+    z-index: 990 !important;
 }
 
-.sidenav{
+.sidenav {
     background: rgb(0, 0, 0);
     border: solid rgba(207, 207, 207, 0.24) 1px;
     border-left: none;
@@ -160,46 +201,62 @@ h2 {
     padding: 0 32px;
 }
 
+#SideNav-10 {
+    z-index: 999;
+}
+
 /* width */
 
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 1rem;
 }
 
 /* Track */
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #131212;
     width: 10px;
 }
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: rgba(51, 48, 48, 0.589);
     width: 10px;
+    border-radius: 1rem;
 }
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: rgb(0, 0, 0);
 }
 
 .spacing1 {
     margin: 1px
 }
 
-.spacingFooter {
+.spacing2 {
+    margin: 10px
+}
+
+.space {
     margin-top: 5rem;
 }
 
-.spacingBottom {
-    margin-bottom: 5rem;
+.space1 {
+    margin-top: 10rem;
+}
+
+.space2 {
+    margin-top: 20rem;
+}
+
+.space3 {
+    margin-top: 30rem;
 }
 
 .projects {
-    
     margin-top: 5rem;
 }
 
@@ -209,4 +266,72 @@ h2 {
 
 .spacingProjectFull {
     margin-top: 27rem;
+}
+
+.transition1 {
+    height: 1rem;
+    background: linear-gradient(0deg, rgba(111, 111, 139, 1) 0%, rgba(7, 9, 9, 1) 50%);
+    color: transparent;
+}
+
+.transition2 {
+    height: 1px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.493) 0%, rgba(0, 0, 0, 0.486) 50%);
+    color: transparent;
+}
+
+.animate__animated.animate__fadeInUpBig {
+    --animate-delay: 0.2s;
+}
+
+.border, .borderBot, .borderTop, .borderBotTop, .borderSide, .borderLeft, .borderRight, .borderRound {
+    border-color: grey !important;
+}
+
+.borderBot, aka {
+    border-bottom: solid 1px ;
+    padding-bottom: 1rem;
+    
+}
+
+
+.borderTop {
+    padding-top: 1rem;
+    border-top: solid 1px ;
+}
+
+.borderBotTop {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 1px ;
+    border-top: solid 1px ;
+}
+
+.borderSide {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-left: solid 1px ;
+    border-right: solid 1px ;
+}
+
+.borderLeft {
+    padding-left: 1rem;
+    border-left: solid 1px ;
+    
+}
+
+.borderRight {
+    padding-right: 1rem;
+    border-right: solid 1px ;
+}
+
+.border {
+    padding: 1rem;
+    border: solid 1px ;
+}
+
+.borderRound {
+    padding: 1rem;
+    border: solid 1px ;
+    border-radius: 10px;
 }
