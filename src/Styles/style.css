@@ -1,6 +1,6 @@
 :root {
-    --primary-theme: -webkit-linear-gradient(left, #49949044, #4c155441);
-    --secondary-theme: -webkit-linear-gradient(left, #1cacb179, #4c155477);
+    --primary-theme: -webkit-linear-gradient(left, #2e5e5b44, #280b2c41);
+    --secondary-theme: -webkit-linear-gradient(left, #0e545779, #300e3577);
     --animate-delay: 0.2s;
     --border-space: ;
 }
@@ -160,6 +160,12 @@ nav {
     text-shadow: 10px 2px 50px 10px rgba(0, 0, 0, 0.514) !important;
 }
 
+.normalText {
+    font-size: 1.3rem;
+    font-family: inherit;
+    font-weight: lighter;
+}
+
 p {
     margin: 0px;
 }
@@ -295,6 +301,18 @@ h2 {
     margin-bottom: 10rem;
 }
 
+.spaceDown2 {
+    margin-bottom: 20rem;
+}
+
+.spaceDown3 {
+    margin-bottom: 30rem;
+}
+
+.spaceDown4 {
+    margin-bottom: 30rem;
+}
+
 .projects {
     margin-top: 5rem;
 }
@@ -315,7 +333,7 @@ h2 {
 
 .transition2 {
     height: 1px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.493) 0%, rgba(0, 0, 0, 0.486) 50%);
+    background: linear-gradient(180deg, rgb(144, 150, 160) 50%, rgb(179, 179, 179) 100%);
     color: transparent;
 }
 
@@ -458,6 +476,7 @@ h2 {
     padding: 1rem;
     border: solid 1px;
     border-radius: 10px;
+    background: transparent;
 }
 
 .borderBotGNo {
@@ -477,7 +496,55 @@ h2 {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, rgba(205, 205, 205, 1) 0%, rgb(182, 182, 182) 25%, rgba(131, 131, 131, 0.788) 50%, rgba(94, 94, 94, 0.705) 75%, rgba(0, 0, 0, 0.836) 100%);
+    background: linear-gradient(0deg, rgb(126, 125, 125) 0%, rgb(102, 102, 102) 25%, rgba(82, 82, 82, 0.788) 50%, rgba(44, 44, 44, 0.705) 75%, rgba(0, 0, 0, 0.836) 100%);
     opacity: 0.7;
     top: 0;
+}
+
+.outer2 {
+    position: relative;
+}
+
+.outer2 .overlay2 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgb(99, 99, 99) 0%, rgb(71, 71, 71) 25%, rgb(63, 63, 63) 50%, rgba(56, 56, 56, 1) 75%, rgb(39, 39, 39) 100%);
+    opacity: 0.7;
+    top: 0;
+}
+
+.messenger {
+    background: rgb(0, 0, 0);
+    border: black solid 1px;
+    border-radius: 1rem;
+    color: white;
+}
+
+input {
+    color: white;
+}
+
+textarea {
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    min-height: 10rem;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #5050507e;
+    -webkit-box-shadow: 0 1px 0 0 #7a7a7a00;
+    box-shadow: 0 1px 0 0 #000000;
+}
+
+textarea:focus-visible {
+    outline-offset: 0px;
+}
+
+:focus-visible {
+    outline:1px;
+    background: rgb(0, 0, 0);
+    overflow-x: hidden;
 }

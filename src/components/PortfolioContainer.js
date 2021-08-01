@@ -5,7 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
-
+import Contact from './pages/Contact';
 import Footer from './Footer';
 import '../Styles/style.css';
 import 'materialize-css';
@@ -25,7 +25,7 @@ const PortfolioContainer = () => {
       <Route path="/" exact component={About} />
       <Route path="/Projects" exact component={Projects} />
       <Route path="/Resume" exact component={Resume} />
-      
+      <Route path="/Contact" exact component={Contact} />
       <Footer />
     </BrowserRouter>
   );

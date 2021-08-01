@@ -1,4 +1,3 @@
-
 /* //-- yui-grids style overrides -- */
 
 body {
@@ -12,12 +11,25 @@ body {
 
 #inner {
     padding: 10px 80px;
-    background: #3636363a;
+    background: rgba(0, 0, 0, 0.199);
+    background-image: linear-gradient(315deg, #0cbaba42 0%, #3800363f 74%);
     border: solid rgb(0, 0, 0);
     border-width: 8px 0 2px 0;
+    transition: 200ms;
+}
+
+#inner:hover {
+    padding: 10px 80px;
+    background: rgba(0, 0, 0, 0.199);
+    background-image: linear-gradient(315deg, #0cbaba42 0%, #3800363f 74%);
+    border: solid rgb(0, 0, 0);
+    border-width: 8px 0 2px 0;
+    box-shadow: rgba(0, 0, 0, 0.37) 0.5rem 2rem 5rem;
+    transition: 200ms;
 }
 
 /* yui framework changes */
+
 .yui-gf {
     margin-bottom: 2em;
     padding-bottom: 2em;
@@ -120,7 +132,6 @@ a#pdf {
     text-decoration: none;
 }
 
-
 .job {
     position: relative;
     margin-bottom: 1em;
@@ -141,7 +152,6 @@ a#pdf {
 .last {
     border: none;
 }
-
 
 .skills-list ul {
     margin: 0;
@@ -188,6 +198,13 @@ a#pdf {
 }
 
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+.yui-gf-custom {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
 }
