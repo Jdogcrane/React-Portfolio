@@ -10,7 +10,7 @@ import Footer from './Footer';
 import '../Styles/style.css';
 import 'materialize-css';
 const PortfolioContainer = () => {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('/');
   
   const handlePageChange = (page) => setCurrentPage(page);
   

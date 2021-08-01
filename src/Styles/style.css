@@ -5,6 +5,14 @@
     --border-space: ;
 }
 
+body {
+    background: var(--primary-theme);
+    text-align: unset;
+    font-weight: lighter;
+    scroll-behavior: smooth;
+    transition: 200ms;
+}
+
 #parallax-1 {
     background: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80);
     background-attachment: fixed;
@@ -17,7 +25,7 @@
 /* https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260 City */
 
 #parallax-2 {
-    background: url(https://images.pexels.com/photos/2114014/pexels-photo-2114014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background: url(https://images.pexels.com/photos/2114014/pexels-photo-2114014.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,11 +78,6 @@
     max-width: 500px;
 }
 
-body {
-    background: var(--primary-theme);
-    text-align: unset;
-}
-
 .background-color {
     background: var(--primary-theme);
     border-radius: 20px;
@@ -95,6 +98,11 @@ body {
 
 .parallax-container2 {
     height: 20rem;
+}
+
+.nav ul a:active {
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
 }
 
 .nav {
@@ -138,18 +146,16 @@ nav {
 
 .btn-floating:hover {
     background-color: rgba(0, 0, 0, 0);
-    border-bottom:rgb(53, 53, 53) solid 1px;
+    border-bottom: rgb(53, 53, 53) solid 1px;
 }
 
 .fab:hover, .fab:focus {
     background-color: rgba(24, 24, 24, 0) !important;
-    
 }
 
 .shadow {
     text-shadow: 10px 2px 50px 10px rgba(0, 0, 0, 0.514) !important;
 }
-
 
 p {
     margin: 0px;
@@ -163,6 +169,20 @@ h2 {
     margin: 0px
 }
 
+.underscore {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.header {
+    font-size: 3rem;
+    font-weight: lighter;
+    text-shadow: rgba(0, 0, 0, 0.349) 0px 0px 20px;
+}
+
 .row {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -171,14 +191,20 @@ h2 {
 .contain1 {
     margin: 0 auto;
     max-width: 800px;
-    
 }
 
 .link {
     color: #e0e0e0;
-    text-decoration: underline;
+    pointer-events: stroke;
+    transition: 100ms;
+    cursor: pointer;
 }
 
+.link:hover {
+    color: #f7c628 !important;
+    transition: 100ms;
+    border-bottom: rgb(255, 255, 255) solid 1px !important;
+}
 
 .sidenav-overlay {
     z-index: 990 !important;
@@ -284,54 +310,139 @@ h2 {
     --animate-delay: 0.2s;
 }
 
+.animate__animated.animate__delay-6s {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-delay: calc(var(--animate-delay)*6);
+    animation-delay: calc(var(--animate-delay)*6);
+}
+
+.animate__animated.animate__delay-7s {
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+    -webkit-animation-delay: calc(var(--animate-delay)*7);
+    animation-delay: calc(var(--animate-delay)*7);
+}
+
+.animate__animated.animate__delay-8s {
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    -webkit-animation-delay: calc(var(--animate-delay)*8);
+    animation-delay: calc(var(--animate-delay)*8);
+}
+
+.animate__animated.animate__delay-9s {
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-delay: calc(var(--animate-delay)*9);
+    animation-delay: calc(var(--animate-delay)*9);
+}
+
+.animate__animated.animate__delay-10s {
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-delay: calc(var(--animate-delay)*10);
+    animation-delay: calc(var(--animate-delay)*10);
+}
+
+/*---------------------------------------------> Black borders */
+
 .border, .borderBot, .borderTop, .borderBotTop, .borderSide, .borderLeft, .borderRight, .borderRound {
-    border-color: grey !important;
+    border-color: rgb(0, 0, 0) !important;
 }
 
-.borderBot, aka {
-    border-bottom: solid 1px ;
+.borderBot {
+    border-bottom: solid 1px;
     padding-bottom: 1rem;
-    
 }
-
 
 .borderTop {
     padding-top: 1rem;
-    border-top: solid 1px ;
+    border-top: solid 1px;
 }
 
 .borderBotTop {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-bottom: solid 1px ;
-    border-top: solid 1px ;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
 }
 
 .borderSide {
     padding-left: 1rem;
     padding-right: 1rem;
-    border-left: solid 1px ;
-    border-right: solid 1px ;
+    border-left: solid 1px;
+    border-right: solid 1px;
 }
 
 .borderLeft {
     padding-left: 1rem;
-    border-left: solid 1px ;
-    
+    border-left: solid 1px;
 }
 
 .borderRight {
     padding-right: 1rem;
-    border-right: solid 1px ;
+    border-right: solid 1px;
 }
 
 .border {
     padding: 1rem;
-    border: solid 1px ;
+    border: solid 1px;
 }
 
 .borderRound {
     padding: 1rem;
-    border: solid 1px ;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+/*---------------------------------------------> grey borders */
+
+.borderG, .borderBotG, .borderTopG, .borderBotTopG, .borderSideG, .borderLeftG, .borderRightG, .borderRoundG {
+    border-color: rgb(85, 85, 85) !important;
+}
+
+.borderBotG {
+    border-bottom: solid 1px;
+    padding-bottom: 1rem;
+}
+
+.borderTopG {
+    padding-top: 1rem;
+    border-top: solid 1px;
+}
+
+.borderBotTopG {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+}
+
+.borderSideG {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-left: solid 1px;
+    border-right: solid 1px;
+}
+
+.borderLeftG {
+    padding-left: 1rem;
+    border-left: solid 1px;
+}
+
+.borderRightG {
+    padding-right: 1rem;
+    border-right: solid 1px;
+}
+
+.borderG {
+    padding: 1rem;
+    border: solid 1px;
+}
+
+.borderRoundG {
+    padding: 1rem;
+    border: solid 1px;
     border-radius: 10px;
 }

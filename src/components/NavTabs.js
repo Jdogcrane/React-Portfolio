@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, SideNav, SideNavItem, Icon, Parallax } from 'react-materialize';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const NavTabs = () => {
 
@@ -55,13 +55,13 @@ const NavTabs = () => {
                 
                 <ul className="right hide-on-med-and-down">
                   <li>
-                    <Link to="/" >Home</Link>
+                    <NavLink to="/" onClick={()=>window.scrollTo(0, 0)}>Home</NavLink>
                   </li>
                   <li>
-                    <Link to="/projects" >Projects</Link>
+                    <NavLink to="/projects" onClick={()=>window.scrollTo(0, 0)} >Projects</NavLink>
                   </li>
                   <li>
-                    <Link to="/resume">Resume</Link>
+                    <NavLink to="/resume" onClick={()=>window.scrollTo(0, 0)}>Resume</NavLink>
                   </li>
                 </ul>
               </div>
