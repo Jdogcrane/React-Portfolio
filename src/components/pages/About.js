@@ -18,19 +18,19 @@ export default function About() {
             <div className="center ">
 
               <a className="animate__animated animate__fadeInUpBig animate__delay-1s btn-floating spacing1" rel="noreferrer" href="https://github.com/Jdogcrane" target="_blank">
-                <i className="fab fa-github pink-text"></i></a>
+                <i className="fab fa-github "></i></a>
 
               <a className="animate__animated animate__fadeInUpBig animate__delay-2s btn-floating spacing1"
                 href="https://www.linkedin.com/in/joshua-crane-911532210/" rel="noreferrer" target="_blank">
-                <i className="fab fa-linkedin pink-text"></i></a>
+                <i className="fab fa-linkedin "></i></a>
 
               <a className="animate__animated animate__fadeInUpBig animate__delay-3s btn-floating spacing1" rel="noreferrer" href="https://www.instagram.com/joshua_crane/"
                 target="_blank">
-                <i className="fab fa-instagram pink-text"></i></a>
+                <i className="fab fa-instagram "></i></a>
 
               <a className="animate__animated animate__fadeInUpBig animate__delay-4s btn-floating spacing1"
                 href="https://open.spotify.com/user/jdogcrane?si=ca332a64d48c4b49" rel="noreferrer" target="_blank">
-                <i className="fab fa-spotify pink-text"></i></a>
+                <i className="fab fa-spotify "></i></a>
             </div>
           </div>
 

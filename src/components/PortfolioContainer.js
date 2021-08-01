@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import pageData from './pages';
 import { BrowserRouter, Route } from 'react-router-dom';

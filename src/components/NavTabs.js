@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, SideNav, SideNavItem, Icon, Parallax } from 'react-materialize';
+import { SideNav, SideNavItem } from 'react-materialize';
 import { Link, NavLink } from 'react-router-dom';
 
 const NavTabs = () => {
