@@ -161,7 +161,7 @@ export default function About() {
                 m={4}
                 l={4}
               >
-                <p className="black-text borderBotBNo borderSide center  ">Front-End</p>
+                <p className="orange-text borderBotBNo borderSide center normalText">Front-End</p>
                 <div className="white-text text-lighten-2 flow-text text  center">
                   <ul>
                     <li>Materialize</li>
@@ -183,7 +183,7 @@ export default function About() {
                 m={4}
                 l={4}
               >
-                <p className="black-text borderBotBNo borderSide center">Performance</p>
+                <p className="orange-text borderBotBNo borderSide center normalText">Performance</p>
                 <div className="white-text text-lighten-2 flow-text text  center">
                   <ul>
                     <li>Progressive Web Apps</li>
@@ -193,7 +193,6 @@ export default function About() {
                     <li>React</li>
                   </ul>
                 </div>
-
               </Col>
               <Col
                 className=" white-text "
@@ -201,13 +200,12 @@ export default function About() {
                 m={4}
                 l={4}
               >
-                <p className="black-text borderBotBNo borderSide center">Technical/Back-End</p>
+                <p className="orange-text borderBotBNo borderSide center normalText">Technical/Back-End</p>
                 <div className="white-text text-lighten-2 flow-text text  center ">
                   <ul>
                     <li>Express servers</li>
                     <li>Error Handling</li>
                     <li>Handlebars</li>
-                    <li>Materialize</li>
                     <li>Sequelize</li>
                     <li>Testing</li>
                     <li>Heroku</li>
@@ -215,7 +213,6 @@ export default function About() {
                     <li>Node</li>
                   </ul>
                 </div>
-
               </Col>
             </Row>
           </div>
@@ -238,18 +235,18 @@ export default function About() {
             <span className="animate__animated animate__fadeIn animate__delay-2s animate__infinite"> .</span>
             <br />
             <span className="animate__animated animate__fadeIn animate__delay-3s animate__infinite"> .</span></h1>
-            <form id="javascript_form" className=" space container messenger">
+          <form id="javascript_form" className=" space container messenger">
 
-              <div className=" borderRound center ">
+            <div className=" borderRound center ">
 
-                <input type="text" name="subject" placeholder="Subject" />
-                <textarea name="text" placeholder="Message" className="spacing normalText"></textarea>
+              <input type="text" name="subject" placeholder="Subject" />
+              <textarea name="text" placeholder="Message" className="spacing normalText"></textarea>
 
-                {/* <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site --> */}
-                <input type="submit" id="js_send" value="Send" className="btn spacing2 white black-text" />
-                <p className="white-text">Powered by <a href="https://postmail.invotes.com" target="__blank">PostMail</a></p>
-              </div>
-          <div className="">
+              {/* <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site --> */}
+              <input type="submit" id="js_send" value="Send" className="btn spacing2 white black-text" />
+              <p className="white-text">Powered by <a href="https://postmail.invotes.com" target="__blank">PostMail</a></p>
+            </div>
+            <div className="">
               <ul>
                 <li><a className="link borderBotGNo spacing2" href="Joshua.crane.me@gmail.com" target="__blank">Email</a></li>
                 <li><a className="link borderBotGNo spacing2" href="https://github.com/Jdogcrane" target="__blank">GitHub</a></li>
@@ -257,8 +254,8 @@ export default function About() {
 
 
               </ul>
-          </div>
-            </form>
+            </div>
+          </form>
         </div>
         <div className="container contain1 space ">
 

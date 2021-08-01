@@ -3,9 +3,7 @@ import '../../Styles/Template.css';
 
 export default function Resume() {
 	return (
-		<div className="container spacingFooter animate__animated animate__rollIn space spaceDown1">
-
-
+		<div className="container spacingFooter animate__animated animate__fadeIn space spaceDown1">
 			<div id="doc2" className="yui-t7 margin1 contain2 full hero">
 				<div id="inner">
 					<div id="hd">
@@ -16,7 +14,6 @@ export default function Resume() {
 							</div>
 							<div className="yui-u">
 								<div className="contact-info">
-
 									<h3>(704)369-3265</h3>
 									<h3>4408 Peach Rd, Chesapeake</h3>
 									<h3>VA, 23321</h3>
@@ -72,12 +69,11 @@ export default function Resume() {
 											<li className="last li-res ">Handlebars</li>
 										</ul>
 										<ul className="talent">
-											<li className="li-res">Materialize</li>
+											<li className="li-res">Heroku</li>
 											<li className="li-res">Sequelize</li>
 											<li className="last li-res">Testing</li>
 										</ul>
 										<ul className="talent">
-											<li className="li-res">Heroku</li>
 											<li className="li-res">MySQL</li>
 											<li className="last li-res">Node</li>
 										</ul>
@@ -123,13 +119,12 @@ export default function Resume() {
 										</div>
 									</div>
 								</div>
-
 								<div className="yui-gf last">
 									<div className="yui-u first">
 										<h2>Education</h2>
 									</div>
 									<div className="job last">
-										<h4>2014-2016</h4>
+										<h4>2013-2016</h4>
 									</div>
 									<div className="yui-u">
 										<h2>Kingdom Education for Young Scholars - Chesapeake, VA</h2>
