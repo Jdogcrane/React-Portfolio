@@ -2,7 +2,7 @@
 
 ><h1 style="text-align: center;">----This Site is a WIP----</h1>
 
-<h1 style="text-align: center;"><a href="https://ancient-coast-47951.herokuapp.com/">[Deployed React Portfolio V2]</a></h1>
+<h1 style="text-align: center;"><a href="https://joshua-crane.herokuapp.com/">[Deployed React Portfolio V2]</a></h1>
 
 ><h1 style="text-align: center;">----This Site is a WIP----</h1>
 
