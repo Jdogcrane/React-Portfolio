@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-materialize';
 import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom';
-export default function About() {
+export default function Home() {
   return (
     <>
       {/* Space */}
@@ -53,8 +53,8 @@ export default function About() {
           <Row>
             <Col
               className=" white-text space"
-              s={6}
-              m={4}
+              s={12}
+              m={12}
               l={4}
             >
               <div className="spacing2">
@@ -65,8 +65,8 @@ export default function About() {
             </Col>
             <Col
               className=" white-text space"
-              s={6}
-              m={4}
+              s={12}
+              m={6}
               l={4}
             >
               <div className="spacing2">
@@ -77,8 +77,8 @@ export default function About() {
             </Col>
             <Col
               className=" white-text space"
-              s={6}
-              m={4}
+              s={12}
+              m={6}
               l={4}
             >
               <div className="spacing2">
@@ -89,7 +89,7 @@ export default function About() {
             </Col>
             <Col
               className=" white-text space"
-              s={6}
+              s={12}
               m={6}
               l={6}
             >
@@ -130,30 +130,33 @@ export default function About() {
           <p className="white-text text-lighten-2 flow-text borderBot space title center ">What lead me here?</p>
           <br />
 
-          <div className="contain1 spacing2 ">
+          <div className="contain1  ">
 
             <p className="white-text text-lighten-2 flow-text text ">
-              Living in the far out country where It might take one hour just to get to a store I wouldn't let that stop me from learning about tech. Always jump at the opportunity to learn more about all things tech.
-              Later I picked up an advanced art class in highschool that unlocked a side of me that I didn't know I had.</p>
+              In the far out country where It takes one hour just to get to a store. You might not expect to find a kid so passionate about computers.
+              Over my childhood I was fascinated with everything related to computers. So much in fact my parents would create limits of time I could use the PC (Windows 99).
+              I went on to build my first PC in 2018. I even helped build some of my friends custom rigs.
+              In highschool I picked up an advanced art class that unlocked a side of me that I didn't know I had.</p>
             <br />
             <p className="white-text text-lighten-2 flow-text text ">
-              As I got older, the drive for learning never stopped. My hobbies seemed to center around all sorts of tech. From Custom built PC's all the way to custom FPV drones, I was there for it.
+              As I got older, my passion for tech and an eye for art stayed with me through it all. I later moved to the city, but my hobbies stayed centered the newest tech from VR to custom FPV drones.
               <br /><br />
-              So how does a 22 year old guy who grew up in the country side with an eye for art end up as a Web Developer? Well, I think its safe to say, it was just natural.</p>
+              So how does a 22 year old guy who grew up in the country side with an eye for art and a passion for tech end up a Web Developer? Well, I think its safe to say, it was just natural.</p>
 
             {/* where im going */}
             <p className="white-text text-lighten-2 flow-text borderBot space title center ">Where I'm Going</p>
             <br />
             <p className="white-text text-lighten-2 flow-text text ">
-              Over the past year I have self taught myself to learn many of the fundamentals of front end work. I decided to further develope my skills by attended a coding program at <a
+              Over the past year I have self taught myself to learn many of the fundamentals of front end work. I decided to further develope my skills by attending a program at <a
                 href="https://www.uncc.edu/" className="link borderBotBNo white-text italic"> UNCC </a> <span className="italic">- 8/1/21</span> </p>
             <div>
               <p className="white-text text-lighten-2 flow-text "><span className="">
-                <br></br>I then graduated as a Full Stack Web Developer specializing in UI-UX design. Near the top of my class and confident with the skills learned I set out to find a workplace that will fit me best.</span></p>
+                <br></br>I later graduated as a Full Stack Web Developer specializing in UI-UX design. Near the top of my class and confident with the skills learned I set out to find a workplace that will fit me best.</span></p>
               <br />
             </div>
-            <p className="space title center white-text text-lighten-2 flow-text spacing2">What I Know</p>
-            <div className="borderBotBNo"></div>
+            {/* what I know */}
+            <p className="space title center white-text text-lighten-2 flow-text spacing2">What I Learned</p>
+            <div className=""></div>
             <Row className="">
               <Col
                 className=" white-text "
@@ -161,18 +164,18 @@ export default function About() {
                 m={4}
                 l={4}
               >
-                <p className="orange-text borderBotBNo borderSide center normalText">Front-End</p>
-                <div className="white-text text-lighten-2 flow-text text  center">
+                <p className=" borderBotBNo center flow-text textTheme">Front-End</p>
+                <div className="white-text text-lighten-2 background-color center flow-text text  ">
                   <ul>
-                    <li>Materialize</li>
-                    <li>HTML/CSS</li>
-                    <li>JavaScript</li>
-                    <li>Bootstrap</li>
-                    <li>jQuery</li>
-                    <li>Bulma</li>
-                    <li>AJAX</li>
-                    <li>APIs</li>
-                    <li>Git</li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="__blank" className="link white-text">HTML/CSS</a></li>
+                    <li><a href="https://materializecss.com/" target="__blank" className="link white-text">Materialize</a></li>
+                    <li><a href="https://getbootstrap.com/" target="__blank" className="link white-text">Bootstrap</a></li>
+                    <li><a href="https://www.javascript.com/" target="__blank" className="link white-text">JavaScript</a></li>
+                    <li><a href="https://jquery.com/" target="__blank" className="link white-text">jQuery</a></li>
+                    <li><a href="https://bulma.io/" target="__blank" className="link white-text">Bulma</a></li>
+                    <li><a href="https://api.jquery.com/jquery.ajax/" target="__blank" className="link white-text">AJAX</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/API" target="__blank" className="link white-text">APIs</a></li>
+                    <li><a href="https://git-scm.com/" target="__blank" className="link white-text">Git</a></li>
                   </ul>
                 </div>
               </Col>
@@ -183,14 +186,17 @@ export default function About() {
                 m={4}
                 l={4}
               >
-                <p className="orange-text borderBotBNo borderSide center normalText">Performance</p>
-                <div className="white-text text-lighten-2 flow-text text  center">
+                <p className="textTheme borderBotBNo center   flow-text ">Back-End</p>
+                <div className="white-text text-lighten-2 center background-color flow-text text   ">
                   <ul>
-                    <li>Progressive Web Apps</li>
-                    <li>Computer Science</li>
-                    <li>MongoDB</li>
-                    <li>MERN</li>
-                    <li>React</li>
+                    <li><a href="https://expressjs.com/" target="__blank" className="link white-text">Express servers</a></li>
+                    <li><a href="https://expressjs.com/en/guide/error-handling.html" target="__blank" className="link white-text">Error Handling</a></li>
+                    <li><a href="https://handlebarsjs.com/" target="__blank" className="link white-text">Handlebars</a></li>
+                    <li><a href="https://sequelize.org/" target="__blank" className="link white-text">Sequelize</a></li>
+                    <li><a href="https://jestjs.io/" target="__blank" className="link white-text">Jest Test</a></li>
+                    <li><a href="https://www.heroku.com/" target="__blank" className="link white-text">Heroku</a></li>
+                    <li><a href="https://www.mysql.com/" target="__blank" className="link white-text">MySQL</a></li>
+                    <li><a href="https://nodejs.org/en/" target="__blank" className="link white-text">Node</a></li>
                   </ul>
                 </div>
               </Col>
@@ -200,17 +206,14 @@ export default function About() {
                 m={4}
                 l={4}
               >
-                <p className="orange-text borderBotBNo borderSide center normalText">Technical/Back-End</p>
-                <div className="white-text text-lighten-2 flow-text text  center ">
+                <p className="textTheme borderBotBNo center flow-text">Performance</p>
+                <div className="white-text text-lighten-2 background-color center flow-text text  ">
                   <ul>
-                    <li>Express servers</li>
-                    <li>Error Handling</li>
-                    <li>Handlebars</li>
-                    <li>Sequelize</li>
-                    <li>Testing</li>
-                    <li>Heroku</li>
-                    <li>MySQL</li>
-                    <li>Node</li>
+                    <li><a href="https://cci.uncc.edu/academics/computer-science/undergraduate-programs/courses" target="__blank" className="link white-text ">Computer Science</a></li>
+                    <li><a href="https://www.mongodb.com/" target="__blank" className="link white-text ">MongoDB</a></li>
+                    <li><a href="https://www.mongodb.com/mern-stack" target="__blank" className="link white-text ">MERN</a></li>
+                    <li><a href="https://reactjs.org/" target="__blank" className="link white-text ">React</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="__blank" className="link white-text ">PWA</a></li>
                   </ul>
                 </div>
               </Col>
@@ -251,15 +254,11 @@ export default function About() {
                 <li><a className="link borderBotGNo spacing2" href="Joshua.crane.me@gmail.com" target="__blank">Email</a></li>
                 <li><a className="link borderBotGNo spacing2" href="https://github.com/Jdogcrane" target="__blank">GitHub</a></li>
                 <li><a className="link borderBotGNo spacing2" href="https://www.linkedin.com/in/joshua-crane-911532210/" target="__blank">LinkedIn</a></li>
-
-
               </ul>
             </div>
           </form>
         </div>
-        <div className="container contain1 space ">
-
-        </div>
+        <div className="container contain1 space "></div>
 
       </section>
     </>

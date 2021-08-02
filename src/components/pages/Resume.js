@@ -30,9 +30,9 @@ export default function Resume() {
 									</div>
 									<div className="yui-u">
 										<p className="enlarge p-res">
-											Over my career I have developed strong social skills with people from many walks of life. Learned to become adaptable and teachable.
-											I strive to lead others to success with me and not behind me. Maintained a very professional work ethic and strive to do better attitude.
-											Learned to handle stressful fast-paced environments and how to structure priorities.
+											Over my career I have developed strong social skills with people from many walks of life. I'm a very adaptable and teachable person who is easy to get along with.
+											I have experience handling fast-paced environments and how to structure priorities to get it done. Graduating at the top of my class I am looking to bring that same energy to the workplace.
+											I strive to lead others to success with me and not behind me. Count on me to maintain a very professional work ethic and strive to do better attitude.
 										</p>
 									</div>
 								</div>
@@ -49,10 +49,10 @@ export default function Resume() {
 										<ul className="talent">
 											<li className="li-res">Bootstrap</li>
 											<li className="li-res">jQuery</li>
-											<li className="last li-res">Bulma</li>
+											<li className="last li-res">AJAX</li>
 										</ul>
 										<ul className="talent">
-											<li className="li-res">AJAX</li>
+											<li className="li-res">Bulma</li>
 											<li className="li-res">APIs</li>
 											<li className="last li-res">Git</li>
 										</ul>
@@ -75,7 +75,7 @@ export default function Resume() {
 										</ul>
 										<ul className="talent">
 											<li className="li-res">MySQL</li>
-											<li className="last li-res">Node</li>
+											<li className="li-res">Node</li>
 										</ul>
 									</div>
 								</div>
@@ -91,8 +91,7 @@ export default function Resume() {
 										</ul>
 										<ul className="talent">
 											<li className="li-res">MERN</li>
-											<li className="li-res">jQuery</li>
-											<li className="last li-res">React</li>
+											<li className="li-res">React</li>
 										</ul>
 									</div>
 								</div>
@@ -109,7 +108,7 @@ export default function Resume() {
 										<div className="talent">
 											<h2>Covid & Cats</h2>
 											<p className="p-res">Collecting data from the entire USA with a few clicks using an API while also collecting Cat Gif's.
-												The one spot where you can be comforted, while you staying informed. </p>
+												The one spot where you can be comforted, while you're informed. </p>
 											<a href="https://jdogcrane.github.io/covid-and-cats/" target="__blank" className="link borderBotBNo">Covid-and-Cats.com</a>
 										</div>
 										<div className="talent">
@@ -132,7 +131,7 @@ export default function Resume() {
 
 											<h4>2021</h4>
 										</div>
-										<h3><strong>UNCC</strong> Full Stack Web Developer Program &mdash; <strong>4.0 GPA</strong> </h3>
+										<h3>The University of North Carolina Charlotte Full Stack Web Developer Program &mdash; <strong>4.0 GPA</strong> </h3>
 									</div>
 								</div>
 								<div id="ft">

@@ -1,8 +1,8 @@
 :root {
-    --primary-theme: -webkit-linear-gradient(left, #2e5e5b44, #280b2c41);
+    --primary-theme: -webkit-linear-gradient(left, #2e5e5b44, #1a071d41);
     --secondary-theme: -webkit-linear-gradient(left, #0e545779, #300e3577);
     --animate-delay: 0.2s;
-    --border-space: ;
+    --text-theme: #ffbb00;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
     scroll-behavior: smooth;
     transition: 200ms;
 }
+
 
 #parallax-1 {
     background: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80);
@@ -63,14 +64,6 @@ body {
     font-size: x-large;
 }
 
-@media only screen and (max-width: 994px) {
-    .titleBig {
-        display: none !important;
-    }
-    .titleSmall {
-        display: inline-block !important;
-    }
-}
 
 .caption {
     background-color: rgba(0, 0, 0, 0.63);
@@ -80,10 +73,8 @@ body {
 
 .background-color {
     background: rgba(0, 0, 0, 0.363);
-    padding-left: 5rem;
-    padding-right: 5rem;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.432) 0rem 1rem 5rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.096) 0rem 1rem 5rem 1rem;
+    padding: 0;
 }
 
 .collapsible {
@@ -141,6 +132,7 @@ nav {
 }
 
 .btn-floating {
+    
     background-color: rgba(0, 0, 0, 0.308);
     border-radius: 4px;
     min-width: 40px;
@@ -160,7 +152,7 @@ nav {
     width: inherit;
     display: inline-block;
     text-align: center;
-    color: #850180;
+    color: rgb(92, 20, 82);
     
     font-size: 1.6rem;
     line-height: 40px;
@@ -176,12 +168,23 @@ nav {
     font-weight: lighter;
 }
 
+.normalTextUnique {
+    font-size: 1.4rem;
+    font-family: inherit;
+    font-weight: inherit;
+    
+}
+
 p {
     margin: 0px;
 }
 
 .title {
     font-size: 3rem;
+}
+
+.textTheme {
+    color: var(--text-theme);
 }
 
 .flow-text {}
@@ -212,6 +215,8 @@ h2 {
 .contain1 {
     margin: 0 auto;
     max-width: 800px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .link {
@@ -222,7 +227,7 @@ h2 {
 }
 
 .link:hover {
-    color: #f7c628 !important;
+    color: var(--text-theme) !important;
     transition: 100ms;
     border-bottom: rgb(255, 255, 255) solid 1px !important;
 }
@@ -540,7 +545,10 @@ textarea {
     color: white;
     border-radius: 1rem;
     padding: 1rem;
+    min-width: 500px;
     min-height: 10rem;
+    max-width: 500px;
+    max-height: 500px ;
 }
 
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
@@ -556,10 +564,41 @@ textarea:focus-visible {
 :focus-visible {
     outline:1px;
     background: rgb(0, 0, 0);
-    overflow-x: hidden;
+    overflow-x: none;
 }
 
 .footer {
     background-color: #af8c9d;
 background-image: linear-gradient(315deg, #6e6e6e8a 0%, #64646488 74%);
+}
+
+@media only screen and (max-width: 994px) {
+    .titleBig {
+        display: none;
+    }
+    .titleSmall {
+        display: inline-block !important;
+    }
+    html,body{
+        overflow-x: hidden ;
+    }
+
+    #parallax-3 {
+        height: 70rem;
+    }
+
+    #parallax-2 {
+        height: 120rem !important;
+    }
+
+    textarea {
+        color: white;
+        border-radius: 1rem;
+        padding: 1rem;
+        min-width: 240px !important;
+        min-height: 10rem;
+        max-width: 250px !important;
+        max-height: 200px ;
+    }
+
 }
