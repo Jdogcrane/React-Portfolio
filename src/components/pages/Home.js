@@ -56,9 +56,9 @@ export default function Home() {
           <Row className="animate__animated animate__fadeIn animate__delay-10s">
             <Col
               className=" white-text space"
-              s={12}
-              m={12}
-              l={4}
+              s={6}
+              m={6}
+              l={3}
             >
               <div className="">
 
@@ -66,51 +66,38 @@ export default function Home() {
               </div>
 
             </Col>
+            
             <Col
               className=" white-text space"
               s={6}
               m={6}
-              l={4}
-            >
-              <div className="">
-
-                <Link to="aboutMe" smooth={"true"} className="white-text flow-text link  italic borderBotG active">Get to Know Me</Link>
-              </div>
-
-            </Col>
-            <Col
-              className=" white-text space"
-              s={6}
-              m={6}
-              l={4}
-            >
-              <div className="">
-
-                <NavLink to="/contact" smooth={"true"} className="white-text flow-text link  italic borderBotG active">Connect & More</NavLink>
-              </div>
-
-            </Col>
-            <Col
-              className=" white-text space"
-              s={6}
-              m={6}
-              l={6}
+              l={3}
             >
               <div className="">
 
                 <NavLink to="/projects" smooth={"true"} className="white-text flow-text link  italic borderBotG active" onClick={() => window.scrollTo(0, 0)}>Things I've Done</NavLink>
               </div>
-
             </Col>
             <Col
               className=" white-text space"
               s={6}
               m={6}
-              l={6}
+              l={3}
             >
               <div className="">
 
                 <NavLink to="/resume" smooth={"true"} className="white-text flow-text link  italic borderBotG active" onClick={() => window.scrollTo(0, 0)}>The Specifics</NavLink>
+              </div>
+            </Col>
+            <Col
+              className=" white-text space"
+              s={6}
+              m={6}
+              l={3}
+            >
+              <div className="">
+
+              <Link to="contact" smooth={"true"} className="white-text flow-text link  italic borderBotG active">Connect & More</Link>
               </div>
 
             </Col>
@@ -231,7 +218,7 @@ export default function Home() {
       <section id="parallax-3" className="outer-city">
         <div className="overlay-city">
         </div>
-        <div className=" contain1 animate__animated animate__fadeIn animate__delay-5s spaceDown2">
+        <div className=" contain1 animate__animated animate__fadeIn animate__delay-5s spaceDown2" id="contact">
           <h1 className="white-text center text-lighten-2 flow-text title space2 ">The<span> Next</span> <a
             href="https://www.linkedin.com/in/joshua-crane-911532210/" className="link white-text"> Path </a>
             <br />
