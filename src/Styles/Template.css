@@ -1,210 +1,229 @@
-/* //-- yui-grids style overrides -- */
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #000;
+:root {
+    --highlight-resume: black;
 }
 
-.full {
-    border: solid black 1px;
+
+.padding-resume { 
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-#inner {
-    padding: 10px 80px;
-    background: rgba(0, 0, 0, 0.199);
-    background-image: linear-gradient(315deg, #0cbaba42 0%, #3800363f 74%);
-    border: solid rgb(0, 0, 0);
-    border-width: 8px 0 2px 0;
-    transition: 200ms;
+.resume_wrapper{
+    border: rgb(71, 71, 71) 1px solid;
+    border-bottom: rgb(116, 116, 116) 5px solid;
+    border-top: 10px solid rgb(51, 51, 51);
+	display: flex;
+	width: 1095.41px;
+    height: fit-content;
+	margin: 50px auto;
+	background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.408) 0rem 0rem 1rem ;
+    font-size: 1.3rem;
+    font-weight: normal;
 }
 
-#inner:hover {
-    padding: 10px 80px;
-    background: rgba(0, 0, 0, 0.199);
-    background-image: linear-gradient(315deg, #0cbaba42 0%, #3800363f 74%);
-    border: solid rgb(0, 0, 0);
-    border-width: 8px 0 2px 0;
-    box-shadow: rgba(0, 0, 0, 0.37) 0.5rem 2rem 5rem;
-    transition: 200ms;
+.resume_wrapper .resume_left{
+	width: 35%;
+	background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.308) 0rem 0rem 0.3rem ;
 }
 
-/* yui framework changes */
-
-.yui-gf {
-    margin-bottom: 2em;
-    padding-bottom: 2em;
-    border-bottom: 1px solid rgb(0, 0, 0);
+.resume_wrapper .resume_left .resume_image{
+	width: 100%;
 }
 
-/* //-- header, body, footer -- */
-
-#hd {
-    margin: 2.5em 0 3em 0;
-    padding-bottom: 1.5em;
-    border-bottom: 1px solid rgb(0, 0, 0)
+.resume_wrapper .resume_left .resume_image img{
+	width: 100%;
+	display: block;
 }
 
-#hd h2 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.resume_wrapper .resume_title{
+	color: #222222;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+	letter-spacing: 4px;
 }
 
-#bd, #ft {
-    margin-bottom: 2em;
+.resume_wrapper .resume_left .resume_info{
+	color: #222222;
 }
 
-/* //-- footer -- */
-
-#ft {
-    padding: 1em 0 5em 0;
-    font-size: 92%;
-    border-top: 1px solid rgb(0, 0, 0);
-    text-align: center;
+.resume_wrapper .resume_left .resume_bottom{
+	padding: 20px 30px;
 }
 
-#ft p {
-    margin-bottom: 0;
-    text-align: center;
+.resume_wrapper .resume_item{
+	padding: 20px 0;
+	border-bottom: 1px solid var(--highlight-resume);
 }
 
-/* //-- core typography and style -- */
-
-#hd h1 {
-    font-size: 48px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+.resume_wrapper  .resume_item:last-child{
+	border-bottom: 0;
 }
 
-.p-res {
-    font-size: 100%;
-    line-height: 18px;
-    padding-right: 3em;
+.resume_wrapper .resume_left .resume_namerole{
+	display: none;
 }
 
-a {
-    color: #bb9e1c
+.resume_wrapper .resume_namerole .name{
+	font-size: 20px;
+	color: #222222;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 5px;
+	letter-spacing: 4px;
 }
 
-a:hover {
-    text-decoration: none;
+.resume_wrapper .resume_left .resume_namerole .role{
+	color: #525252;
 }
 
-strong {
-    font-weight: bold;
+.resume_wrapper .resume_left .resume_contact .resume_info:last-child{
+	 margin-top: 10px;
 }
 
-.li-res {
-    line-height: 24px;
-    border-bottom: 1px solid rgb(0, 0, 0);
+.resume_wrapper .resume_left .resume_contact .resume_subtitle{
+	color: #222222;
+	margin-bottom: 2px;
 }
 
-p.enlarge {
-    font-size: 144%;
-    padding-right: 6.5em;
-    line-height: 24px;
+.resume_wrapper .resume_left .resume_skills .skills_list{
+	display: flex;
+	justify-content: space-between;
 }
 
-p.enlarge span {
-    color: #000
+.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p{
+	position: relative;
+	width: 125px;
+    height: 20px;
+    background: #fff;
 }
 
-.contact-info {
-    margin-top: 7px;
+.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p span{	
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: var(--highlight-resume);
+	width: 100%;
+	height: 100%;
 }
 
-.first h2 {
-    font-style: italic;
+.resume_wrapper .resume_right{
+	width: 65%;
+	padding: 20px 40px;
+	color: #26252d;
 }
 
-.last {
-    border-bottom: 0
+.resume_wrapper .resume_right .resume_namerole .name{
+	color: #26252d;
+	font-size: 32px;
 }
 
-/* //-- section styles -- */
-
-a#pdf {
-    display: block;
-    float: left;
-    background: #666;
-    color: white;
-    padding: 6px 50px 6px 12px;
-    margin-bottom: 6px;
-    text-decoration: none;
+.resume_wrapper .resume_right .resume_namerole .role{
+	font-size: 14px;
+	text-transform: uppercase;
 }
 
-.job {
-    position: relative;
-    margin-bottom: 1em;
-    padding-bottom: 1em;
-    border-bottom: 1px solid rgb(0, 0, 0);
+.resume_wrapper .resume_right .resume_item .resume_title{
+	color: #26252d;
 }
 
-.job h4 {
+.resume_wrapper .resume_right .resume_data{
+	display: flex;
+}
+
+.resume_wrapper .resume_right .resume_data .year{
+	padding-right: 35px;
+	position: relative;
+}
+
+.resume_wrapper .resume_right .resume_data .content{
+	padding-left: 35px;
+	margin-bottom: 20px;
+	width: calc(100% - 115px);
+}
+
+.resume_wrapper .resume_right .resume_data .year:before{
+	content: "";
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border: 1px solid #26252d;
+	border-radius: 50%;
+}
+
+.resume_wrapper .resume_right .resume_data .year:after{
+	content: "";
     position: absolute;
-    top: 0.35em;
-    right: 0
+    top: 17px;
+    right: 4px;
+    width: 3px;
+    height: 90%;
+    background: var(--highlight-resume);
 }
 
-.job p {
-    margin: 0.75em 0 3em 0;
+.resume_wrapper .resume_right .resume_data:last-child .year:after{
+	display: none;
 }
 
-.last {
-    border: none;
+.resume_wrapper .resume_right .resmue_interests .resume_info{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
 }
 
-.skills-list ul {
-    margin: 0;
+.resume_wrapper .resume_right .resmue_interests .interests .int_icon{
+	font-size: 38px;
+	color: var(--highlight-resume);
+	margin-bottom: 10px;
 }
 
-.skills-list li {
-    margin: 3px 0;
-    padding: 3px 0;
+@media screen and (max-width: 999px){
+	.resume_wrapper .resume_right .resume_namerole{
+		display: none;
+	}
+	.resume_wrapper .resume_left .resume_namerole{
+		display: block;
+	}
+	.resume_wrapper{
+		width: 95%;
+		margin: 10px auto;
+		flex-direction: column;
+	}
+	.resume_wrapper .resume_left,
+	.resume_wrapper .resume_right{
+		width: 100%;
+	}
 }
 
-.skills-list li span {
-    font-size: 152%;
-    display: block;
-    margin-bottom: -2px;
-    padding: 0
-}
-
-.talent {
-    width: 32%;
-    float: left
-}
-
-.talent h2 {
-    margin-bottom: 6px;
-}
-
-#srt-ttab {
-    margin-bottom: 100px;
-    text-align: center;
-}
-
-#srt-ttab img.last {
-    margin-top: 20px
-}
-
-/* --// override to force 1/8th width grids -- */
-
-.yui-gf .yui-u {
-    width: 80.2%;
-}
-
-.yui-gf div.first {
-    width: 12.3%;
-}
-
-::-webkit-scrollbar {
-    width: 0;
-    /* Remove scrollbar space */
-    background: transparent;
-    /* Optional: just make scrollbar invisible */
-}
-
-.yui-gf-custom {
-    margin-bottom: 2em;
-    padding-bottom: 2em;
+@media screen and (max-width: 424px){
+	.resume_wrapper .resume_right{
+		padding: 20px 30px;
+	}
+	.resume_wrapper .resume_right .resume_data{
+		flex-direction: column;
+	}
+	.resume_wrapper .resume_right .resume_data .year{
+		padding: 0;
+		margin-bottom: 5px;
+		width: 100%;
+		color: var(--highlight-resume);
+	}
+	.resume_wrapper .resume_right .resume_data .year:before,
+	.resume_wrapper .resume_right .resume_data .year:after{
+		display: none;
+	}
+	.resume_wrapper .resume_right .resume_data .content{
+		width: 100%;
+		padding: 0;
+	}
+	.resume_wrapper .resume_right .resmue_interests .interests .int_icon{
+		font-size: 24px;
+	}
 }

@@ -6,7 +6,10 @@ export default function Home() {
   return (
     <>
       {/* Space */}
-      <section id="parallax-1">
+      <section id="parallax-1" className="outer-space">
+        <div className="overlay-space">
+        </div>
+
 
         <div id="/" className=" center">
           <div className="container center ">
@@ -34,7 +37,7 @@ export default function Home() {
           </div>
 
         </div>
-        <div className="center container ">
+        <div className="center container">
           <h1 className="grey-text text-lighten-2 flow-text title space animate__animated animate__fadeInUpBig animate__delay-5s">Hey,<span> I'm</span> <a
             href="https://github.com/Jdogcrane" className="link"> Josh </a>
           </h1>
@@ -45,19 +48,19 @@ export default function Home() {
           </div>
 
 
-          <p className="grey-text text-lighten-2 flow-text space2 title ">Explore<span className="animate__animated animate__fadeIn animate__delay-1s animate__infinite"> .</span>
+          <p className="grey-text text-lighten-2 flow-text animate__animated animate__fadeIn animate__delay-10s space2 title ">Explore<span className="animate__animated animate__fadeIn animate__delay-1s animate__infinite"> .</span>
             <span className="animate__animated animate__fadeIn animate__delay-2s animate__infinite"> .</span>
             <span className="animate__animated animate__fadeIn animate__delay-3s animate__infinite"> .</span></p>
 
 
-          <Row>
+          <Row className="animate__animated animate__fadeIn animate__delay-10s">
             <Col
               className=" white-text space"
               s={12}
               m={12}
               l={4}
             >
-              <div className="spacing2">
+              <div className="">
 
                 <Link to="journey" smooth={"true"} className="white-text link flow-text  italic borderBotG active">The Journey Here</Link>
               </div>
@@ -65,11 +68,11 @@ export default function Home() {
             </Col>
             <Col
               className=" white-text space"
-              s={12}
+              s={6}
               m={6}
               l={4}
             >
-              <div className="spacing2">
+              <div className="">
 
                 <Link to="aboutMe" smooth={"true"} className="white-text flow-text link  italic borderBotG active">Get to Know Me</Link>
               </div>
@@ -77,11 +80,11 @@ export default function Home() {
             </Col>
             <Col
               className=" white-text space"
-              s={12}
+              s={6}
               m={6}
               l={4}
             >
-              <div className="spacing2">
+              <div className="">
 
                 <NavLink to="/contact" smooth={"true"} className="white-text flow-text link  italic borderBotG active">Connect & More</NavLink>
               </div>
@@ -89,7 +92,7 @@ export default function Home() {
             </Col>
             <Col
               className=" white-text space"
-              s={12}
+              s={6}
               m={6}
               l={6}
             >
@@ -101,7 +104,7 @@ export default function Home() {
             </Col>
             <Col
               className=" white-text space"
-              s={12}
+              s={6}
               m={6}
               l={6}
             >
@@ -120,12 +123,12 @@ export default function Home() {
       {/* Clouds */}
       <div id="journey">
       </div>
-      <section id="parallax-2" className="outer ">
-        <div className="overlay">
+      <section id="parallax-2" className="outer-cloud ">
+        <div className="overlay-cloud">
         </div>
 
 
-        <div className="contain1  animate__animated animate__fadeInUpBig animate__delay-5s ">
+        <div className="contain1  animate__animated animate__fadeIn animate__delay-5s ">
           {/* what lead me here */}
           <p className="white-text text-lighten-2 flow-text borderBot space title center ">What lead me here?</p>
           <br />
@@ -156,7 +159,6 @@ export default function Home() {
             </div>
             {/* what I know */}
             <p className="space title center white-text text-lighten-2 flow-text spacing2">What I Learned</p>
-            <div className=""></div>
             <Row className="">
               <Col
                 className=" white-text "
@@ -165,7 +167,7 @@ export default function Home() {
                 l={4}
               >
                 <p className=" borderBotBNo center flow-text textTheme">Front-End</p>
-                <div className="white-text text-lighten-2 background-color center flow-text text  ">
+                <div className="white-text text-lighten-2 background-color center flow-text-small flow-text text  ">
                   <ul>
                     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="__blank" className="link white-text">HTML/CSS</a></li>
                     <li><a href="https://materializecss.com/" target="__blank" className="link white-text">Materialize</a></li>
@@ -187,7 +189,7 @@ export default function Home() {
                 l={4}
               >
                 <p className="textTheme borderBotBNo center   flow-text ">Back-End</p>
-                <div className="white-text text-lighten-2 center background-color flow-text text   ">
+                <div className="white-text text-lighten-2 center background-color flow-text-small flow-text text   ">
                   <ul>
                     <li><a href="https://expressjs.com/" target="__blank" className="link white-text">Express servers</a></li>
                     <li><a href="https://expressjs.com/en/guide/error-handling.html" target="__blank" className="link white-text">Error Handling</a></li>
@@ -207,7 +209,7 @@ export default function Home() {
                 l={4}
               >
                 <p className="textTheme borderBotBNo center flow-text">Performance</p>
-                <div className="white-text text-lighten-2 background-color center flow-text text  ">
+                <div className="white-text text-lighten-2 background-color center flow-text-small flow-text text  ">
                   <ul>
                     <li><a href="https://cci.uncc.edu/academics/computer-science/undergraduate-programs/courses" target="__blank" className="link white-text ">Computer Science</a></li>
                     <li><a href="https://www.mongodb.com/" target="__blank" className="link white-text ">MongoDB</a></li>
@@ -226,12 +228,12 @@ export default function Home() {
       <div className="transition2" id="aboutMe">
       </div>
 
-      <section id="parallax-3" className="outer2">
-        <div className="overlay2">
+      <section id="parallax-3" className="outer-city">
+        <div className="overlay-city">
         </div>
-        <div className=" contain1 animate__animated animate__fadeInUpBig animate__delay-5s ">
-          <h1 className="white-text center text-lighten-2 flow-text title space ">The<span> Next</span> <a
-            href="https://github.com/Jdogcrane" className="link white-text"> Path </a>
+        <div className=" contain1 animate__animated animate__fadeIn animate__delay-5s spaceDown2">
+          <h1 className="white-text center text-lighten-2 flow-text title space2 ">The<span> Next</span> <a
+            href="https://www.linkedin.com/in/joshua-crane-911532210/" className="link white-text"> Path </a>
             <br />
             <span className="animate__animated animate__fadeIn animate__delay-1s animate__infinite"> .</span>
             <br />
