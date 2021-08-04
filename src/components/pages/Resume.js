@@ -1,5 +1,5 @@
 import '../../Styles/Template.css';
-
+import { Row, Col } from 'react-materialize';
 
 export default function Resume() {
 	return (
@@ -10,19 +10,19 @@ export default function Resume() {
 				<div className="resume_left">
 
 					<div className="resume_bottom">
-						<div className="resume_item resume_namerole">
+						<div className="resume_item  resume_namerole">
 							<div className=" right">
 								<div className="role">(704)369-3265</div>
-								<div className="role">joshua.crane.me@gmail.com</div>
+								<div className="email">joshua.crane.me@gmail.com</div>
 							</div>
 							<div className="name">Joshua Crane</div>
-							<div className="role">Full Stack Web Developer</div>
+							<div className="role">Full Stack Web Developer - Age: 22</div>
 						</div>
 						<div className="resume_item resume_profile">
 							<div className="resume_title">Profile</div>
 							<div className="resume_info">Over my career I have developed strong social skills with people from many walks of life.
 								I have experience handling fast-paced environments with a team and how to structure priorities to accomplish the task.
-								I strive to lead others to success with me and not behind me. You can count on me to maintain a very professional work ethic and strive to do better attitude. My preferred line of work is UI-UX design.</div>
+								I strive to lead others to success with me and not behind me. You can count on me to maintain a very professional work ethic and strive a to do better attitude. My preferred line of work is UI-UX design.</div>
 						</div>
 						<div className="resume_item resume_address">
 							<div className="resume_title">Address</div>
@@ -33,7 +33,8 @@ export default function Resume() {
 							</div>
 						</div>
 
-						<div className="resume_item resume_skills skills_bar">
+						<div className="borderBotBNo  resume_skills skills_bar">
+						<div className="resume_title center borderBotBNo">What I learned</div>
 							<div className="resume_title">Front End</div>
 							<div className="resume_info">
 								<div className="skills_list">
@@ -74,7 +75,7 @@ export default function Resume() {
 								</div>
 							</div>
 						</div>
-						<div className="resume_item resume_skills skills_bar">
+						<div className="borderBotBNo resume_item resume_skills skills_bar">
 							<div className="resume_title">Back End</div>
 							<div className="resume_info">
 								<div className="skills_list">
@@ -103,7 +104,7 @@ export default function Resume() {
 								</div>
 							</div>
 						</div>
-						<div className="resume_item resume_skills skills_bar">
+						<div className="borderBotBNo resume_item resume_skills skills_bar">
 							<div className="resume_title">Performance</div>
 							<div className="resume_info">
 								<div className="skills_list">
@@ -127,47 +128,10 @@ export default function Resume() {
 								</div>
 							</div>
 						</div>
+						<div className=" ">
+							<div className="resume_title spacing2">Projects</div>
 
-					</div>
-				</div>
-				<div className="resume_right">
-					<div className="resume_item resume_namerole">
-						<div className=" right">
-							<div className="role">(704)369-3265</div>
-							<div className="role">joshua.crane.me@gmail.com</div>
-						</div>
-						<div className="name">Joshua Crane</div>
-						<div className="role">Full Stack Web Developer</div>
-					</div>
-					<div className="resume_item resume_education">
-						<div className="resume_title">Education</div>
-						<div className="resume_info">
 							<div className="resume_data">
-								<div className="year"></div>
-								<div className="content">
-									<p>Home Schooled</p>
-								</div>
-							</div>
-							<div className="resume_data">
-								<div className="year"></div>
-								<div className="content">
-									<p> <a className="link-black black-text" href="https://www.keysofva.org/" target="__blank">Kingdom of Education Young Scholars</a></p>
-								</div>
-							</div>
-							<div className="resume_data">
-								<div className="year"></div>
-								<div className="content">
-									<p> <a className="link-black black-text" href="https://bootcamp.uncc.edu/coding/" target="__blank">University of North Carolina Charlotte</a></p>
-									<p>Full Stack Web Developer Program &ndash; <strong>4.0 GPA</strong> </p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="resume_item resume_experience">
-						<div className="resume_title">Projects</div>
-						<div className="resume_info">
-							<div className="resume_data">
-								<div className="year"></div>
 								<div className="content">
 									<strong>Covid & Cats</strong>
 									<br />
@@ -177,7 +141,7 @@ export default function Resume() {
 								</div>
 							</div>
 							<div className="resume_data">
-								<div className="year"></div>
+								<br />
 								<div className="content">
 									<strong>Forum Friends</strong>
 									<br />
@@ -186,7 +150,7 @@ export default function Resume() {
 								</div>
 							</div>
 							<div className="resume_data">
-								<div className="year"></div>
+								<br />
 								<div className="content">
 									<strong>Rapid Resume</strong>
 									<br />
@@ -194,27 +158,156 @@ export default function Resume() {
 									<p> <a className="link borderBotBNo black-text" href="https://rapid-resume.herokuapp.com/" target="__blank">Rapid-Resume.com</a></p>
 								</div>
 							</div>
+
 						</div>
 					</div>
-					<div className="resume_item center">
-						<div className="resume_title">Reference</div>
+				</div>
+				<div className="resume_right">
+					<div className="resume_item resume_namerole">
+						<div className=" right">
+							<div className="role">(704)369-3265</div>
+							<div className="email">joshua.crane.me@gmail.com</div>
+						</div>
+						<div className="name">Joshua Crane</div>
+						<div className="role">Full Stack Web Developer - Age: 22</div>
+					</div>
+					<div className="resume_item resume_education">
+						<div className="resume_title">Education</div>
 						<div className="resume_info">
-							<div className="interests">
-								<div className="int_data">
-									<ul className="center">
-										<li>Anthony Cooper</li>
-										<li><a className="link-black black-text" href="tel:312-835-6451">(312)-835-6451</a></li>
-										<li><a className="link-black black-text" href="mailto: iam@anthonycooper.me">iam@anthonycooper.me</a></li>
-										<li><a className="link-black black-text" href="https://www.linkedin.com/in/anthonydcooper/">https://www.linkedin.com/in/anthonydcooper/</a></li>
-									</ul>
+							<div className="resume_data">
+								<div className="year">1999</div>
+								<div className="content">
+									<p>Home Schooled</p>
+								</div>
+							</div>
+							<div className="resume_data">
+								<div className="year">2017</div>
+								<div className="content">
+									<p> <a className="link-black black-text" href="https://www.keysofva.org/" target="__blank">Kingdom Education for Young Scholars - Co-op</a></p>
+								</div>
+							</div>
+							<div className="resume_data">
+								<div className="year">2021</div>
+								<div className="content">
+									<p> <a className="link-black black-text" href="https://bootcamp.uncc.edu/coding/" target="__blank">University of North Carolina Charlotte</a></p>
+									<p>Full Stack Web Developer Program &ndash; <strong>4.0 GPA</strong> </p>
 								</div>
 							</div>
 						</div>
 					</div>
+
+					<div className="resume_item_custom resume_experience">
+						<div className="resume_title">Work History</div>
+						<div className="resume_info">
+							<div className="resume_data">
+								<div className="year">2016</div>
+								<div className="content">
+									<strong>Summer Jobs</strong>
+									<br />
+									<p classNameName="p-res">• Full Time accountant and helper at Biernot Flooring <br /> • Part Time Construction for Mid Atlantic - 2017</p>
+								</div>
+							</div>
+							<div className="resume_data">
+								<div className="year">2017</div>
+								<div className="content">
+									<strong>FoodLion</strong>
+									<br />
+									<p classNameName="p-res">Part time grocery associate <br /> • Team of 4-6 <br /> • Day and night shifts <br /> • Fast paced <br /> • 30-40+hrs/Week  </p>
+								</div>
+							</div>
+							<div className="resume_data">
+								<div className="year">2018</div>
+								<div className="content">
+									<strong>Foodlion</strong>
+									<br />
+									<p classNameName="p-res"> Part time Direct Store Delivery (DSD) Receiver <br /> • Responsible for auditing received shipments to insure quality and price meets requirements <br /> • 30-40+hrs/Week</p>
+
+								</div>
+
+							</div>
+							<div className="resume_data">
+								<div className="year">2020</div>
+								<div className="content">
+									<strong>Foodlion</strong>
+									<br />
+									<p classNameName="p-res"> Full time Grocery Team Lead & (DSD) Receiver <br /> • Responsible for leading, inspiring, teaching a team of 6 to efficiently unload and stock hundreds large shipments.
+										<br /> • Fast paced
+										<br /> • Team Management
+										<br /> • Long Days
+										<br /> • 40+hrs/Week</p>
+								</div>
+
+							</div>
+							<div className="resume_data borderBotBNo">
+								<div className="year">2021</div>
+								<div className="content">
+									<strong>The Next Path</strong>
+
+								</div>
+							</div>
+						</div>
+						<p className=" resume_title center spacing2">References</p>
+						<Row className="spaceSmall">
+							<Col
+								className="  "
+								s={12}
+								m={6}
+								l={4}
+							>
+								<div className="center borderTop">
+
+									<p><strong>Anthony Cooper</strong></p>
+									<p>UNCC Lead Web Development Instructor</p>
+									<p>312.835.6451</p>
+									
+								</div>
+
+							</Col>
+							<Col
+								className="black-text "
+								s={12}
+								m={6}
+								l={4}
+							>
+								<div className="center borderTop">
+
+									<p><strong>Mitch Hendrix</strong></p>
+									<p>FoodLion Store Manger</p>
+									<p>704.333.1227</p>
+								</div>
+
+							</Col>
+							<Col
+								className="black-text "
+								s={12}
+								m={12}
+								l={4}
+							>
+								<div className="center borderTop">
+
+									<p><strong>Joe Abrams</strong></p>
+									<p>FoodLion Assistant Store Manger</p>
+									<p>980.234.1052</p>
+								</div>
+
+							</Col>
+							<Col
+								className="black-text spaceResumeFooter "
+								s={12}
+								m={12}
+								l={12}
+							>
+								<div className=" center italic borderTopBNo">
+									<p>Joshua Crane - (704)369-3265 - joshua.crane.me@gmail.com</p>
+								</div>
+
+							</Col>
+						</Row>
+					</div>
 				</div>
 			</div>
-			<div className=" contain1 animate__animated animate__fadeIn spaceDown2 animate__delay-5s ">
-				<h1 className="Black-text center text-lighten-2 flow-text title borderTop">My<span> Next</span> <a
+			<div className=" contain1 animate__animated animate__fadeIn space1 spaceDown2 animate__delay-5s ">
+				<h1 className="Black-text center text-lighten-2 flow-text title borderTop">Become My<span> Next</span> <a
 					href="https://www.linkedin.com/in/joshua-crane-911532210/" className="link black-text"> Path </a>
 					<br />
 					<span className="animate__animated animate__fadeIn animate__delay-1s animate__infinite"> .</span>
@@ -224,7 +317,7 @@ export default function Resume() {
 					<span className="animate__animated animate__fadeIn animate__delay-3s animate__infinite"> .</span></h1>
 				<form id="javascript_form" className=" container messenger">
 
-					<div className=" borderRound center ">
+					<div className=" borderMsg center ">
 
 						<input type="text" name="subject" placeholder="Subject" />
 						<textarea name="text" placeholder="Message" className="spacing normalText"></textarea>

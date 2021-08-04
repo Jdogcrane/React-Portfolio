@@ -304,12 +304,21 @@ h2 {
     background: rgb(0, 0, 0);
 }
 
+.spaceResumeFooter {
+    margin-top: 8.9rem;
+
+}
+
 .spacing1 {
     margin: 1px
 }
 
 .spacing2 {
     margin: 10px
+}
+
+.spaceSmall {
+    margin-top: 2.5rem;
 }
 
 .space {
@@ -413,13 +422,18 @@ h2 {
 
 /*---------------------------------------------> Black borders */
 
-.border, .borderBot, .borderTop, .borderBotTop, .borderSide, .borderLeft, .borderRight, .borderRound, .borderMsg {
+.border, .borderBot, .borderTop, .borderBotTop, .borderSide, .borderLeft, .borderRight, .borderRound, .borderMsg, .borderTopBNo {
     border-color: rgb(0, 0, 0) !important;
 }
 
 .borderBot {
     border-bottom: solid 1px;
     padding-bottom: 1rem;
+}
+
+.borderTopBNo {
+
+    border-top: solid 1px;
 }
 
 .borderTop {
