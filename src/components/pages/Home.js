@@ -229,7 +229,7 @@ export default function Home() {
             <span className="animate__animated animate__fadeIn animate__delay-3s animate__infinite"> .</span></h1>
           <form id="javascript_form" className=" space container messenger">
 
-            <div className=" borderRound center ">
+            <div className=" borderMsg center ">
 
               <input type="text" name="subject" placeholder="Subject" />
               <textarea name="text" placeholder="Message" className="spacing normalText"></textarea>

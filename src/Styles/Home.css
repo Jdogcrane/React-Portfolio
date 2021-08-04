@@ -413,7 +413,7 @@ h2 {
 
 /*---------------------------------------------> Black borders */
 
-.border, .borderBot, .borderTop, .borderBotTop, .borderSide, .borderLeft, .borderRight, .borderRound {
+.border, .borderBot, .borderTop, .borderBotTop, .borderSide, .borderLeft, .borderRight, .borderRound, .borderMsg {
     border-color: rgb(0, 0, 0) !important;
 }
 
@@ -457,6 +457,12 @@ h2 {
 }
 
 .borderRound {
+    border-radius: 10px;
+}
+
+.borderMsg {
+    padding: 1.5rem;
+    border: solid 1px;
     border-radius: 10px;
 }
 
