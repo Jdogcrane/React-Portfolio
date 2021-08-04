@@ -11,13 +11,13 @@ export default function Resume() {
 
 					<div className="resume_bottom">
 						<div className="resume_item  resume_namerole">
-							<div className=" right">
-								<div className="role">(704)369-3265</div>
-								<div className="email">joshua.crane.me@gmail.com</div>
-							</div>
-							<div className="name">Joshua Crane</div>
-							<div className="role">Full Stack Web Developer - Age: 22</div>
+							<div className="name center">Joshua Crane</div>
+							<div className="role center">Full Stack Web Developer - Age: 22</div>
 						</div>
+							<div className="right ">
+								<div className="email ">joshua.crane.me@gmail.com</div>
+								<div className="role ">(704)369-3265</div>
+							</div>
 						<div className="resume_item resume_profile">
 							<div className="resume_title">Profile</div>
 							<div className="resume_info">Over my career I have developed strong social skills with people from many walks of life.
