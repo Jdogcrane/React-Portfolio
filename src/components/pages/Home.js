@@ -218,8 +218,8 @@ export default function Home() {
       <section id="parallax-3" className="outer-city">
         <div className="overlay-city">
         </div>
-        <div className=" contain1 animate__animated animate__fadeIn animate__delay-5s spaceDown2" id="contact">
-          <h1 className="white-text center text-lighten-2 flow-text title space2 ">The<span> Next</span> <a
+        <div className=" contain1 animate__animated animate__fadeIn animate__delay-5s " id="contact">
+          <h1 className="white-text center text-lighten-2 flow-text title space ">The<span> Next</span> <a
             href="https://www.linkedin.com/in/joshua-crane-911532210/" className="link white-text"> Path </a>
             <br />
             <span className="animate__animated animate__fadeIn animate__delay-1s animate__infinite"> .</span>
