@@ -6,6 +6,7 @@
 }
 
 body {
+    font: 13px/1.231 arial,helvetica,clean,sans-serif;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: var(--primary-theme);
     text-align: unset;
@@ -71,9 +72,9 @@ body {
 }
 
 .background-color {
-    background: rgba(0, 0, 0, 0.363);
-    box-shadow: rgba(0, 0, 0, 0.096) 0rem 1rem 5rem 1rem;
-    padding: 0;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.4) 0rem 0rem 10px;
+    
 }
 
 .collapsible {
@@ -456,8 +457,6 @@ h2 {
 }
 
 .borderRound {
-    padding: 1rem;
-    border: solid 1px;
     border-radius: 10px;
 }
 
@@ -562,6 +561,20 @@ h2 {
     top: 0;
 }
 
+.outer-fade {
+    position: relative;
+}
+
+.outer-fade .overlay-fade {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 1;
+    top: 0;
+    z-index: 999;
+}
 
 
 .messenger {
@@ -605,6 +618,7 @@ textarea:focus-visible {
     background-color: #af8c9d;
     background-image: linear-gradient(315deg, #6e6e6e8a 0%, #64646488 74%);
 }
+
 
 @media only screen and (max-width: 994px) {
     .titleBig {

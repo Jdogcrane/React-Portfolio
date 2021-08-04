@@ -6,9 +6,8 @@ const NavTabs = () => {
 
   return (
     <div>
-      <style>
-
-      </style>
+      
+      
       <div className="navbar-fixed " id="navbar">
         <nav className="nav ">
           <SideNav

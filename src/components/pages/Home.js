@@ -154,8 +154,9 @@ export default function Home() {
                 l={4}
               >
                 <p className=" borderBotBNo center flow-text textTheme">Front-End</p>
-                <div className="white-text text-lighten-2 background-color center flow-text-small flow-text text  ">
+                <div className="white-text text-lighten-2 background-color borderRound center flow-text-small flow-text text  ">
                   <ul>
+                    <li><a href="https://handlebarsjs.com/" target="__blank" className="link white-text">Handlebars</a></li>
                     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="__blank" className="link white-text">HTML/CSS</a></li>
                     <li><a href="https://materializecss.com/" target="__blank" className="link white-text">Materialize</a></li>
                     <li><a href="https://getbootstrap.com/" target="__blank" className="link white-text">Bootstrap</a></li>
@@ -176,11 +177,10 @@ export default function Home() {
                 l={4}
               >
                 <p className="textTheme borderBotBNo center   flow-text ">Back-End</p>
-                <div className="white-text text-lighten-2 center background-color flow-text-small flow-text text   ">
+                <div className="white-text text-lighten-2 center background-color flow-text-small flow-text text  borderRound ">
                   <ul>
                     <li><a href="https://expressjs.com/" target="__blank" className="link white-text">Express servers</a></li>
                     <li><a href="https://expressjs.com/en/guide/error-handling.html" target="__blank" className="link white-text">Error Handling</a></li>
-                    <li><a href="https://handlebarsjs.com/" target="__blank" className="link white-text">Handlebars</a></li>
                     <li><a href="https://sequelize.org/" target="__blank" className="link white-text">Sequelize</a></li>
                     <li><a href="https://jestjs.io/" target="__blank" className="link white-text">Jest Test</a></li>
                     <li><a href="https://www.heroku.com/" target="__blank" className="link white-text">Heroku</a></li>
@@ -196,7 +196,7 @@ export default function Home() {
                 l={4}
               >
                 <p className="textTheme borderBotBNo center flow-text">Performance</p>
-                <div className="white-text text-lighten-2 background-color center flow-text-small flow-text text  ">
+                <div className="white-text text-lighten-2 background-color borderRound center flow-text-small flow-text text  ">
                   <ul>
                     <li><a href="https://cci.uncc.edu/academics/computer-science/undergraduate-programs/courses" target="__blank" className="link white-text ">Computer Science</a></li>
                     <li><a href="https://www.mongodb.com/" target="__blank" className="link white-text ">MongoDB</a></li>

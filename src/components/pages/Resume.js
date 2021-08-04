@@ -3,6 +3,7 @@ import '../../Styles/Template.css';
 
 export default function Resume() {
 	return (
+
 		<div className="padding-resume">
 
 			<div className="resume_wrapper space animate__animated animate__slideInUp animate__delay-1s">
@@ -11,8 +12,8 @@ export default function Resume() {
 					<div className="resume_bottom">
 						<div className="resume_item resume_namerole">
 							<div className=" right">
-								<div className="resume_subinfo">(704)369-3265</div>
-								<div className="resume_subinfo">joshua.crane.me@gmail.com</div>
+								<div className="role">(704)369-3265</div>
+								<div className="role">joshua.crane.me@gmail.com</div>
 							</div>
 							<div className="name">Joshua Crane</div>
 							<div className="role">Full Stack Web Developer</div>
@@ -130,11 +131,11 @@ export default function Resume() {
 					</div>
 				</div>
 				<div className="resume_right">
-					<div className=" right">
-						<div className="resume_subinfo">(704)369-3265</div>
-						<div className="resume_subinfo">joshua.crane.me@gmail.com</div>
-					</div>
 					<div className="resume_item resume_namerole">
+						<div className=" right">
+							<div className="role">(704)369-3265</div>
+							<div className="role">joshua.crane.me@gmail.com</div>
+						</div>
 						<div className="name">Joshua Crane</div>
 						<div className="role">Full Stack Web Developer</div>
 					</div>
@@ -171,7 +172,7 @@ export default function Resume() {
 									<strong>Covid & Cats</strong>
 									<br />
 									<p classNameName="p-res">A website that grabs data from the entire USA with a few clicks using an API and a Cat Gif's.
-									 Designed and built using Materialize framework</p>
+										Designed and built using Materialize framework</p>
 									<p> <a className="link borderBotBNo black-text" href="https://jdogcrane.github.io/covid-and-cats/" target="__blank">CovidandCats.com</a></p>
 								</div>
 							</div>
