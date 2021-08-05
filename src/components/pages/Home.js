@@ -66,7 +66,7 @@ export default function Home() {
               </div>
 
             </Col>
-            
+
             <Col
               className=" white-text space"
               s={6}
@@ -97,7 +97,7 @@ export default function Home() {
             >
               <div className="">
 
-              <Link to="contact" smooth={"true"} className="white-text flow-text link  italic borderBotG active">Connect & More</Link>
+                <Link to="contact" smooth={"true"} className="white-text flow-text link  italic borderBotG active">Connect & More</Link>
               </div>
 
             </Col>
