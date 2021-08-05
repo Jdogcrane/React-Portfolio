@@ -1,8 +1,6 @@
 import React from 'react';
 import '../../Styles/Projects.css';
 import { Row, Col } from 'react-materialize';
-import { Link } from 'react-scroll'
-import { NavLink } from 'react-router-dom';
 export default function Projects() {
   return (
 
@@ -29,7 +27,7 @@ export default function Projects() {
             m={12}
             l={12}
           >
-            <p>My highlighted projects I completed over the last 3 months</p>
+            <p>My highlighted projects I worked on over the last 3 months</p>
 
             <div className=" space2">
               <i class="fas orange-text animate__animated fa-angle-double-down"></i>
