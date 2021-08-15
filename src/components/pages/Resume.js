@@ -305,6 +305,10 @@ export default function Resume() {
 					</div>
 				</div>
 			</div>
+			<div className="container center">
+			<button className="btn white black-text" onClick={() => window.print()}>Print this page</button>
+
+			</div>
 			<div className=" contain1 animate__animated animate__fadeIn space1 spaceDown2 animate__delay-5s ">
 				<h1 className="Black-text center text-lighten-2 flow-text title borderTop">Become My<span> Next</span> <a
 					href="https://www.linkedin.com/in/joshua-crane-911532210/" className="link black-text"> Path </a>
