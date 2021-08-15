@@ -1,36 +1,35 @@
-<h1 style="text-align: center;">React Portfolio Website V2</h1>
 
-><h1 style="text-align: center;">----This Site is a WIP----</h1>
 
-<h1 style="text-align: center;"><a href="https://joshua-crane.herokuapp.com/">[Deployed React Portfolio V2]</a></h1>
 
-><h1 style="text-align: center;">----This Site is a WIP----</h1>
+<h1 style="text-align: center;"><a href="https://joshua-crane.herokuapp.com/">[Portfolio v.2.0]</a></h1>
+
 
 <!-- [[Site-Preview]](#Site-Preview) -->
 
-## General Overview: 
+<!-- ## General Overview: 
 
-<p style="font-family:georgia"> 
-Today I made a deployable website portfolio. 
-Its goal was to present a react portfolio style website that can be deployed to heroku and have a handful of functions.
-I have implemented those functions into my site and more!
-<p>
+<p style="font-family:georgia">
+My personal portfolio site designed and built by me for you
+<p> -->
 
-
+<!-- 
 ## Table of Contents:
 
-HTML Additions
-- [Head](#Head)
-- [Header](#Head)
-- [Body](#Body)
-- [Section](#Section)
-- [Footer](#Footer)
+- [Home](#Home)
+- [Projects](#Projects)
+- [Resume](#Resume)
+- [License](#License)
 
-CSS Additions
-- [CSSBody](#CSSBody)
-- [CSSSection](#CSSSection)
-- [CSSFooter](#CSSFooter)
+# Home
+* Fully built using CSS and Materialize FrameWork
+* Three parallax and a gradient overlay for each to help fade transitions
+* Animations powered by Animate.style Framework
 
+# Projects
+* Fully built using CSS and Materialize FrameWork
 
-# Site Preview
+# Resume
+* Fully built using CSS and Materialize FrameWork
 
+# License
+*  -->

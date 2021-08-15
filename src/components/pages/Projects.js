@@ -5,13 +5,9 @@ export default function Projects() {
   return (
 
     <>
-      <section id="parallax-header" className="outer-pro1"></section>
-      <section id="parallax-pro1" className="outer-pro1">
-        <div className="overlay-pro1">
-        </div>
+      <section id="parallax-header" className="outer-pro1">
 
-
-        <Row className=" space2 container ">
+        <Row className=" space container ">
           <Col
             className=" white-text animate__animated  animate__delay-3s animate__fadeIn title center"
             s={12}
@@ -35,8 +31,14 @@ export default function Projects() {
             </div>
           </Col>
         </Row>
+      </section>
+      <section id="parallax-pro1" className="outer-pro1">
+        <div className="overlay-pro1">
+        </div>
 
-        <Row className="animate__animated animate__fadeIn animate__delay-3s space2 container">
+
+
+        <Row className="animate__animated animate__fadeIn animate__delay-3s space1 container">
           <Col
             className=" white-text "
             s={12}
@@ -79,9 +81,9 @@ export default function Projects() {
         </Row>
       </section>
 
-      <section id="parallax-pro2" className="outer-pro1">
+      <section id="parallax-pro2" className="outer-pro1 ">
 
-        <Row className="animate__animated animate__fadeIn animate__delay-3s space3 container">
+        <Row className="animate__animated animate__fadeIn animate__delay-3s space1 container">
           <Col
             className=" white-text "
             s={12}
@@ -124,9 +126,9 @@ export default function Projects() {
         </Row>
       </section>
 
-      <section id="parallax-pro3" className="outer-pro1">
+      <section id="parallax-pro3" className="outer-pro1 ">
 
-        <Row className="animate__animated animate__fadeIn animate__delay-3s  container">
+        <Row className="animate__animated animate__fadeIn animate__delay-3s space1 container ">
 
           <Col
             className=" white-text "

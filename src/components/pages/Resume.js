@@ -2,6 +2,7 @@ import '../../Styles/Template.css';
 import { Row, Col } from 'react-materialize';
 
 export default function Resume() {
+
 	return (
 
 		<div className="padding-resume">
@@ -20,9 +21,7 @@ export default function Resume() {
 						</div>
 						<div className="resume_item resume_profile">
 							<div className="resume_title">Profile</div>
-							<div className="resume_info">Over my career I have developed strong social skills with people from many walks of life.
-								I have experience handling fast-paced environments with a team and how to structure priorities to accomplish the task.
-								I strive to lead others to success with me and not behind me. You can count on me to maintain a very professional work ethic and strive a to do better attitude. My preferred line of work is UI-UX design.</div>
+							<div className="resume_info">Fullstack Web Developer that has a proven knowledge of multiuser interface, web design, and web page content. Aiming to leverage my skills to successfully fill the Junior UI/UX Design role at your company.</div>
 						</div>
 						<div className="resume_item resume_address">
 							<div className="resume_title">Address</div>
@@ -34,7 +33,7 @@ export default function Resume() {
 						</div>
 
 						<div className="borderBotBNo  resume_skills skills_bar">
-						<div className="resume_title center borderBotBNo">What I learned</div>
+							<div className="resume_title center borderBotBNo">What I learned</div>
 							<div className="resume_title">Front End</div>
 							<div className="resume_info">
 								<div className="skills_list">
@@ -135,7 +134,7 @@ export default function Resume() {
 								<div className="content">
 									<strong>Covid & Cats</strong>
 									<br />
-									<p classNameName="p-res">A website that grabs data from the entire USA with a few clicks using an API and a Cat Gif's.
+									<p classNameName="p-res">A website that grabs data from the entire USA with a few clicks using an API while also supplying Cat Gif's for comfort.
 										Designed and built using Materialize framework</p>
 									<p> <a className="link borderBotBNo black-text" href="https://jdogcrane.github.io/covid-and-cats/" target="__blank">CovidandCats.com</a></p>
 								</div>
@@ -204,7 +203,7 @@ export default function Resume() {
 								<div className="content">
 									<strong>Summer Jobs</strong>
 									<br />
-									<p classNameName="p-res">• Full Time accountant and helper at Biernot Flooring <br /> • Part Time Construction for Mid Atlantic - 2017</p>
+									<p classNameName="p-res">• Accountant and Helper at Biernot Flooring - 2016 <br /> • Part Time Construction for Mid Atlantic - 2017</p>
 								</div>
 							</div>
 							<div className="resume_data">
@@ -212,7 +211,7 @@ export default function Resume() {
 								<div className="content">
 									<strong>FoodLion</strong>
 									<br />
-									<p classNameName="p-res">Part time grocery associate <br /> • Team of 4-6 <br /> • Day and night shifts <br /> • Fast paced <br /> • 30-40+hrs/Week  </p>
+									<p classNameName="p-res">Grocery Associate <br /> • Team of 4-6 <br /> • Day and night shifts <br /> • Fast paced</p>
 								</div>
 							</div>
 							<div className="resume_data">
@@ -220,7 +219,7 @@ export default function Resume() {
 								<div className="content">
 									<strong>Foodlion</strong>
 									<br />
-									<p classNameName="p-res"> Part time Direct Store Delivery (DSD) Receiver <br /> • Responsible for auditing received shipments to insure quality and price meets requirements <br /> • 30-40+hrs/Week</p>
+									<p classNameName="p-res">Direct Store Delivery (DSD) Receiver <br /> • Responsible for auditing received shipments to insure quality and price meets requirements</p>
 
 								</div>
 
@@ -230,7 +229,7 @@ export default function Resume() {
 								<div className="content">
 									<strong>Foodlion</strong>
 									<br />
-									<p classNameName="p-res"> Full time Grocery Team Lead & (DSD) Receiver <br /> • Responsible for leading, inspiring, teaching a team of 6 to efficiently unload and stock hundreds large shipments.
+									<p classNameName="p-res"> Grocery Team Lead & (DSD) Receiver <br /> • Responsible for leading, inspiring, teaching a team of 6 to efficiently unload and stock hundreds of large shipments.
 										<br /> • Fast paced
 										<br /> • Team Management
 										<br /> • Long Days
@@ -259,7 +258,7 @@ export default function Resume() {
 									<p><strong>Anthony Cooper</strong></p>
 									<p>UNCC Lead Web Development Instructor</p>
 									<p>312.835.6451</p>
-									
+
 								</div>
 
 							</Col>
@@ -338,4 +337,5 @@ export default function Resume() {
 		</div>
 
 	);
+
 }
