@@ -116,7 +116,7 @@ export default function Home() {
 
             <p className="white-text text-lighten-2 flow-text text ">
             Using the tools and skills I have learned over the past years and recent months I am looking to develope more sites and apps that can help solve real world problems.
-             I thrive off of fast paced team oriented projects with creative freedom. And with a background in customer service I'm seeking to continue to serve a new community of costumers with an team that I can grow with.</p>
+             I thrive off of fast paced team oriented projects with creative freedom. And with a background in customer service I'm seeking to continue to serve a new community of costumers with a team that I can grow with.</p>
            
           
 

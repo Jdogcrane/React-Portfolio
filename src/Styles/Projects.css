@@ -118,7 +118,9 @@
   zoom: 1;
 }
 
-
+.img-tech {
+  width: 55px;
+}
 /* .outer-pro1 {
   position: relative;
 }

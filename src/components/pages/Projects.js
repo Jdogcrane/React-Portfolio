@@ -47,15 +47,28 @@ export default function Projects() {
           >
             <div className=" ">
               <div className="">
-                <div className="container normalText center">
-                  <p className="title borderBotG ">
+                <div className="container normalText">
+                  <p className="title center">
                     Covid & Cats
                   </p>
-                  <p> A website that grabs data from the entire USA with a few clicks using an API to show covid data and Cat Gif's. Designed and built using Materialize framework</p>
-                  <div className="spaceSmall">
-                    <a href="https://jdogcrane.github.io/covid-and-cats/" target="__blank" className="link borderRoundG animate__fadeInUpBig">Learn More <i class="fas orange-text fa-angle-double-right"></i></a>
+                  <p className="borderBotG borderTopG spaceSmall"> A website that allows the user to utilize Covid-19 data from across the whole USA to track, total cases,  active cases, recovered and deaths. Using the power of a few API's we allow users to be informed and comforted at the same time by providing cat gif's. My role was mostly set on the design and exploration of the materialize framework while testing and debugging API's.</p>
+                </div>
+                <div className=" center spaceSmaller ">
 
+                  <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img className="img-tech" src="https://cdn.discordapp.com/attachments/709148993262977068/897938716079845386/5847f5bdcef1014c0b5e489c.png" alt="html5" href="#aboutme" /></a>
+                  <a href="https://www.javascript.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897939973729300491/javascript-map-javascript-javascript-icon-with-png-892806.png" alt="JS" href="#aboutme" /></a>
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897941018618499073/pngkey.com-quality-icon-png-6241203.png" alt="CSS" href="#aboutme" /></a>
+                  <a href="https://materializecss.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897936594428891226/pngegg.png" alt="Materialize" href="#aboutme" /></a>
+                  <a href="https://git-scm.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897947921285259264/git-logo.png" alt="GIT" href="#aboutme" /></a>
+                  <a href="https://documenter.getpostman.com/view/11144369/Szf6Z9B3?version=latest"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897923516505141288/Untitled.png" alt="API" href="#aboutme" /></a>
+                  <a href="https://developers.giphy.com/docs/api/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897923516505141288/Untitled.png" alt="API" href="#aboutme" /></a>
+                </div>
+                <div className="spaceSmall">
+                  <div className=" center normalText">
+                    <a href="https://github.com/Jdogcrane/covid-and-cats" target="__blank" className="link borderRoundG spacing2 animate__fadeInUpBig">Repository <i class="fab white-text fa-github"></i></a>
+                    <a href="https://jdogcrane.github.io/covid-and-cats/" target="__blank" className="link borderRoundG spacing2 animate__fadeInUpBig">Live Demo <i class="fas orange-text fa-play-circle"></i></a>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -110,18 +123,37 @@ export default function Projects() {
           >
             <div className=" ">
               <div className="">
-                <div className="container normalText center">
-                  <p className="title borderBotG">
+                <div className="container normalText">
+                  <p className="title center">
                     Forum Friends
                   </p>
-                  <p> A social media platform with login auth and stored data in MongoDB built using Materialize framework.</p>
-                  <div className="spaceSmall">
-                    <a href="https://forum-friends.herokuapp.com/" target="__blank" className="link borderRoundG"><i class="fas orange-text fa-angle-double-left"></i> Learn More</a>
+                  <p className="borderBotG borderTopG spaceSmall"> A social media platform with login auth and stored data in MongoDB built using Materialize framework.</p>
+                </div>
+                <div className=" center spaceSmaller ">
 
+                  <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img className="img-tech" src="https://cdn.discordapp.com/attachments/709148993262977068/897938716079845386/5847f5bdcef1014c0b5e489c.png" alt="html5" href="#aboutme" /></a>
+                  <a href="https://www.javascript.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897939973729300491/javascript-map-javascript-javascript-icon-with-png-892806.png" alt="JS" href="#aboutme" /></a>
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897941018618499073/pngkey.com-quality-icon-png-6241203.png" alt="CSS" href="#aboutme" /></a>
+                  <a href="https://expressjs.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897949990108950558/node-js-1174925.webp" alt="express" href="#aboutme" /></a>
+                  <a href="https://sequelize.org/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897953275985428480/Microsoft.VisualStudio.Services.Icons.png" alt="SQL" href="#aboutme" /></a>
+                  <a href="https://www.mongodb.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897950194212171796/mongodb-replicaset.webp" alt="mongoDB" href="#aboutme" /></a>
+                  <a href="https://git-scm.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897947921285259264/git-logo.png" alt="GIT" href="#aboutme" /></a>
+                  <a href="https://materializecss.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897936594428891226/pngegg.png" alt="Materialize" href="#aboutme" /></a>
+                  <a href="https://handlebarsjs.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897950676531961876/handlebars-js.png" alt="handleBars" href="#aboutme" /></a>
+
+                </div>
+                <div className="spaceSmall">
+                  <div className=" center normalText">
+                    <a href="https://github.com/huirayj/forum-friends" target="__blank" className="link borderRoundG spacing2 animate__fadeInUpBig">Repository <i class="fab white-text fa-github"></i></a>
+
+
+                    <a href="https://forum-friends.herokuapp.com/" target="__blank" className="link borderRoundG spacing2 animate__fadeInUpBig">Live Demo <i class="fas orange-text fa-play-circle"></i></a>
                   </div>
+
                 </div>
               </div>
             </div>
+
           </Col>
         </Row>
       </section>
@@ -138,6 +170,37 @@ export default function Projects() {
           >
             <div className=" ">
               <div className="">
+                <div className="container normalText">
+                  <p className="title center">
+                    Rapid Resume
+                  </p>
+                  <p className="borderBotG borderTopG spaceSmall"> Build a resume stored in mongoDB using, React, Express Servers, Auth and Bulma as the framework.</p>
+                </div>
+                <div className=" center spaceSmaller ">
+
+                  <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img className="img-tech" src="https://cdn.discordapp.com/attachments/709148993262977068/897938716079845386/5847f5bdcef1014c0b5e489c.png" alt="html5" href="#aboutme" /></a>
+                  <a href="https://www.javascript.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897939973729300491/javascript-map-javascript-javascript-icon-with-png-892806.png" alt="JS" href="#aboutme" /></a>
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897941018618499073/pngkey.com-quality-icon-png-6241203.png" alt="CSS" href="#aboutme" /></a>
+                  <a href="https://expressjs.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897949990108950558/node-js-1174925.webp" alt="express" href="#aboutme" /></a>
+                  <a href="https://www.mongodb.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897950194212171796/mongodb-replicaset.webp" alt="mongoDB" href="#aboutme" /></a>
+                  <a href="https://reactjs.org/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897954364872867941/512px-React-icon.svg.png" alt="ReactJS" href="#aboutme" /></a>
+                  <a href="https://sequelize.org/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897953275985428480/Microsoft.VisualStudio.Services.Icons.png" alt="ReactJS" href="#aboutme" /></a>
+                  <a href="https://git-scm.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897947921285259264/git-logo.png" alt="GIT" href="#aboutme" /></a>
+                  <a href="https://bulma.io/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897955086305742858/bulma-logo.png" alt="Bulma" href="#aboutme" /></a>
+                </div>
+                <div className="spaceSmall">
+                  <div className=" center normalText">
+                    <a href="https://github.com/morrisbianco/resume-builder" target="__blank" className="link borderRoundG spacing2 animate__fadeInUpBig">Repository <i class="fab white-text fa-github"></i></a>
+
+
+                    <a href="https://rapid-resume.herokuapp.com/" target="__blank" className="link borderRoundG spacing2 animate__fadeInUpBig">Live Demo <i class="fas orange-text fa-play-circle"></i></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            {/* <div className=" ">
+              <div className="">
                 <div className="container normalText center">
                   <p className="title borderBotG">
                     Rapid Resume
@@ -149,7 +212,7 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Col>
 
           <Col
