@@ -25,60 +25,52 @@ export default function Home() {
               <a className="animate__animated animate__fadeInUpBig animate__delay-2s btn-floating spacing1"
                 href="https://www.linkedin.com/in/joshua-crane-911532210/" rel="noreferrer" target="_blank">
                 <i className="fab fa-linkedin "></i></a>
-
-              <a className="animate__animated animate__fadeInUpBig animate__delay-3s btn-floating spacing1" rel="noreferrer" href="https://www.instagram.com/joshua_crane/"
-                target="_blank">
-                <i className="fab fa-instagram "></i></a>
-
-              <a className="animate__animated animate__fadeInUpBig animate__delay-4s btn-floating spacing1"
-                href="https://open.spotify.com/user/jdogcrane?si=ca332a64d48c4b49" rel="noreferrer" target="_blank">
-                <i className="fab fa-spotify "></i></a>
             </div>
           </div>
 
         </div>
         <div className="center container">
-          <h1 className="grey-text text-lighten-2 flow-text title space animate__animated animate__fadeInUpBig animate__delay-5s">Hey,<span> I'm</span> <a
+          <h1 className="grey-text text-lighten-2 flow-text title space animate__animated animate__fadeInUpBig animate__delay-3s">Hey,<span> I'm</span> <a
             href="https://github.com/Jdogcrane" className="link"> Josh </a>
           </h1>
           <div className="center">
             <br />
-            <p className="grey-text text-lighten-2 animate__animated animate__fadeIn animate__delay-10s flow-text ">Welcome to my personal site designed and built by me for you.</p>
+            <p className="grey-text text-lighten-2 animate__animated animate__fadeIn animate__delay-8s flow-text ">Welcome to my personal site designed and built by me for you.</p>
 
           </div>
 
 
-          <p className="grey-text text-lighten-2 flow-text animate__animated animate__fadeIn animate__delay-10s space2 title ">Explore<span className="animate__animated animate__fadeIn animate__delay-1s animate__infinite"> .</span>
+          <p className="grey-text text-lighten-2 flow-text animate__animated animate__fadeIn animate__delay-8s space2 title ">Discover More<span className="animate__animated animate__fadeIn animate__delay-1s animate__infinite"> .</span>
             <span className="animate__animated animate__fadeIn animate__delay-2s animate__infinite"> .</span>
             <span className="animate__animated animate__fadeIn animate__delay-3s animate__infinite"> .</span></p>
 
 
-          <Row className="animate__animated animate__fadeIn animate__delay-10s">
+          <Row className="animate__animated animate__fadeIn animate__delay-8s">
             <Col
               className=" white-text space"
-              s={6}
+              s={12}
               m={6}
-              l={3}
+              l={4}
             >
               <div className="">
 
-                <Link to="journey" smooth={"true"} className="white-text link flow-text  italic borderBotG active">The Journey Here</Link>
+                <Link to="journey" smooth={"true"} className="white-text link flow-text  italic borderRoundG active">The Journey Here</Link>
               </div>
 
             </Col>
 
             <Col
               className=" white-text space"
-              s={6}
+              s={12}
               m={6}
-              l={3}
+              l={4}
             >
               <div className="">
 
-                <NavLink to="/projects" smooth={"true"} className="white-text flow-text link  italic borderBotG active" onClick={() => window.scrollTo(0, 0)}>Things I've Done</NavLink>
+                <NavLink to="/projects" smooth={"true"} className="white-text flow-text link  italic borderRoundG active" onClick={() => window.scrollTo(0, 0)}>Projects I've Worked On</NavLink>
               </div>
             </Col>
-            <Col
+            {/* <Col
               className=" white-text space"
               s={6}
               m={6}
@@ -88,16 +80,16 @@ export default function Home() {
 
                 <NavLink to="/resume" smooth={"true"} className="white-text flow-text link  italic borderBotG active" onClick={() => window.scrollTo(0, 0)}>The Specifics</NavLink>
               </div>
-            </Col>
+            </Col> */}
             <Col
               className=" white-text space"
-              s={6}
-              m={6}
-              l={3}
+              s={12}
+              m={12}
+              l={4}
             >
               <div className="">
 
-                <Link to="contact" smooth={"true"} className="white-text flow-text link  italic borderBotG active">Connect & More</Link>
+                <Link to="contact" smooth={"true"} className="white-text flow-text link  italic borderRoundG active">Contact Me</Link>
               </div>
 
             </Col>
@@ -117,28 +109,23 @@ export default function Home() {
 
         <div className="contain1  animate__animated animate__fadeIn animate__delay-5s ">
           {/* what lead me here */}
-          <p className="white-text text-lighten-2 flow-text borderBot space title center ">What lead me here?</p>
+          <p className="white-text text-lighten-2 flow-text borderBot space title center ">Why I'm Here</p>
           <br />
 
           <div className="contain1  ">
 
             <p className="white-text text-lighten-2 flow-text text ">
-              In the far out country where It takes one hour just to get to a store. You might not expect to find a kid so passionate about computers.
-              Over my childhood I was fascinated with everything related to computers. So much in fact my parents would create limits of time I could use the PC (Windows 99).
-              I went on to build my first PC in 2018. I even helped build some of my friends custom rigs.
-              In highschool I picked up an advanced art class that unlocked a side of me that I didn't know I had.</p>
-            <br />
-            <p className="white-text text-lighten-2 flow-text text ">
-              As I got older, my passion for tech and an eye for art stayed with me through it all. I later moved to the city, but my hobbies stayed centered the newest tech from VR to custom FPV drones.
-              <br /><br />
-              So how does a 22 year old guy who grew up in the country side with an eye for art and a passion for tech end up a Web Developer? Well, I think its safe to say, it was just natural.</p>
+            Using the tools and skills I have learned over the past years and recent months I am looking to develope more sites and apps that can help solve real world problems.
+             I thrive off of fast paced team oriented projects with creative freedom. And with a background in customer service I'm seeking to continue to serve a new community of costumers with an team that I can grow with.</p>
+           
+          
 
             {/* where im going */}
-            <p className="white-text text-lighten-2 flow-text borderBot space title center ">Where I'm Going</p>
+            <p className="white-text text-lighten-2 flow-text borderBot space title center ">What I've Done</p>
             <br />
             <p className="white-text text-lighten-2 flow-text text ">
               Over the past year I have self taught myself to learn many of the fundamentals of front end work. I decided to further develope my skills by attending a program at <a
-                href="https://www.uncc.edu/" className="link borderBotBNo white-text italic"> UNCC </a> <span className="italic">- 8/1/21</span> </p>
+                href="https://www.uncc.edu/" className="link borderBotBNo white-text italic"> UNCC </a> <span className="italic">- 8/1/21.</span> </p>
             <div>
               <p className="white-text text-lighten-2 flow-text "><span className="">
                 <br></br>I later graduated as a Full Stack Web Developer specializing in UI-UX design. Near the top of my class and confident with the skills learned I set out to find a workplace that will fit me best.</span></p>
@@ -200,7 +187,7 @@ export default function Home() {
                   <ul>
                     <li><a href="https://cci.uncc.edu/academics/computer-science/undergraduate-programs/courses" target="__blank" className="link white-text ">Computer Science</a></li>
                     <li><a href="https://www.mongodb.com/" target="__blank" className="link white-text ">MongoDB</a></li>
-                    <li><a href="https://www.mongodb.com/mern-stack" target="__blank" className="link white-text ">MERN</a></li>
+                  
                     <li><a href="https://reactjs.org/" target="__blank" className="link white-text ">React</a></li>
                     <li><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="__blank" className="link white-text ">PWA</a></li>
                   </ul>
@@ -219,8 +206,8 @@ export default function Home() {
         <div className="overlay-city">
         </div>
         <div className=" contain1 animate__animated animate__fadeIn animate__delay-5s " id="contact">
-          <h1 className="white-text center text-lighten-2 flow-text title space ">The<span> Next</span> <a
-            href="https://www.linkedin.com/in/joshua-crane-911532210/" className="link white-text"> Path </a>
+          <h1 className="white-text center text-lighten-2 flow-text title space "> Contact <a
+            href="https://www.linkedin.com/in/joshua-crane-911532210/" className="link white-text"> Me </a>
             <br />
             <span className="animate__animated animate__fadeIn animate__delay-1s animate__infinite"> .</span>
             <br />

@@ -153,7 +153,7 @@ export default function Resume() {
 								<div className="content">
 									<strong>Rapid Resume</strong>
 									<br />
-									<p classNameName="p-res"> Build a resume stored in mongoDB using, React, Express Servers, Auth and Bulma as the framework.</p>
+									<p classNameName="p-res"> A Fully react website storing user data in mongoDB using a authentication login and Bulma as the framework. Allowing for a fast and easy resume builder for free.  </p>
 									<p> <a className="link borderBotBNo black-text" href="https://rapid-resume.herokuapp.com/" target="__blank">Rapid-Resume.com</a></p>
 								</div>
 							</div>

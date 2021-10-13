@@ -314,6 +314,8 @@ h2 {
 
 }
 
+/* -- Spaces -- */
+
 .spaceProjects {
     margin-top: 12rem;
 }
@@ -493,7 +495,7 @@ h2 {
     border-radius: 10px;
 }
 
-/*---------------------------------------------> grey borders */
+/*---------------------------------------------> Grey borders */
 
 .borderG, .borderBotG, .borderTopG, .borderBotTopG, .borderSideG, .borderLeftG, .borderRightG, .borderRoundG {
     border-color: rgb(85, 85, 85) !important;
@@ -680,11 +682,11 @@ textarea:focus-visible {
     }
 }
 
-/* Text adjustment in "what I learned" */
+/* Text adjustment for smaller media in "what I learned" */
 
 @media only screen and (max-width: 520px) {
     .flow-text-small {
-        font-size: 1.1rem !important;
+        font-size: 1.0rem !important;
     }
 }
 
@@ -702,7 +704,7 @@ textarea:focus-visible {
 
 @media only screen and (max-width: 370px) {
     .flow-text-small {
-        font-size: .7rem !important;
+        font-size: .71rem !important;
     }
 }
 

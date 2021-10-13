@@ -23,7 +23,7 @@ export default function Projects() {
             m={12}
             l={12}
           >
-            <p>My highlighted projects I worked on over the last 3 months</p>
+            <p>My highlighted projects I've worked on</p>
 
             <div className=" space2">
               <i class="fas orange-text animate__animated fa-angle-double-down"></i>
@@ -38,7 +38,7 @@ export default function Projects() {
 
 
 
-        <Row className="animate__animated animate__fadeIn animate__delay-3s space1 container">
+        <Row className="animate__animated animate__fadeIn animate__delay-3s  container">
           <Col
             className=" white-text "
             s={12}
@@ -51,7 +51,7 @@ export default function Projects() {
                   <p className="title borderBotG ">
                     Covid & Cats
                   </p>
-                  <p> A website that grabs data from the entire USA with a few clicks using an API and a Cat Gif's. Designed and built using Materialize framework</p>
+                  <p> A website that grabs data from the entire USA with a few clicks using an API to show covid data and Cat Gif's. Designed and built using Materialize framework</p>
                   <div className="spaceSmall">
                     <a href="https://jdogcrane.github.io/covid-and-cats/" target="__blank" className="link borderRoundG animate__fadeInUpBig">Learn More <i class="fas orange-text fa-angle-double-right"></i></a>
 
@@ -83,7 +83,7 @@ export default function Projects() {
 
       <section id="parallax-pro2" className="outer-pro1 ">
 
-        <Row className="animate__animated animate__fadeIn animate__delay-3s space1 container">
+        <Row className="animate__animated animate__fadeIn animate__delay-3s space container">
           <Col
             className=" white-text "
             s={12}

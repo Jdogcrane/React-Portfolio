@@ -36,10 +36,11 @@ const NavTabs = () => {
               <NavLink to="/projects" onClick={() => window.scrollTo(0, 0)} >Projects</NavLink>
             </SideNavItem>
             <SideNavItem divider />
+            {/* <SideNavItem divider />
             <SideNavItem waves >
               <NavLink to="/resume" onClick={() => window.scrollTo(0, 0)}>Resume</NavLink>
             </SideNavItem>
-            <SideNavItem divider />
+            <SideNavItem divider /> */}
             <div className="center ">
               <a className="animate__animated animate__fadeInUpBig animate__delay-1s btn-floating spacing1" rel="noreferrer" href="https://github.com/Jdogcrane" target="_blank">
                 <i className="fab fa-github"></i></a>
@@ -48,13 +49,13 @@ const NavTabs = () => {
                 href="https://www.linkedin.com/in/joshua-crane-911532210/" rel="noreferrer" target="_blank">
                 <i className="fab fa-linkedin"></i></a>
 
-              <a className="animate__animated animate__fadeInUpBig animate__delay-3s btn-floating spacing1" rel="noreferrer" href="https://www.instagram.com/joshua_crane/"
+              {/* <a className="animate__animated animate__fadeInUpBig animate__delay-3s btn-floating spacing1" rel="noreferrer" href="https://www.instagram.com/joshua_crane/"
                 target="_blank">
                 <i className="fab fa-instagram"></i></a>
 
               <a className="animate__animated animate__fadeInUpBig animate__delay-4s btn-floating spacing1"
                 href="https://open.spotify.com/user/jdogcrane?si=ca332a64d48c4b49" rel="noreferrer" target="_blank">
-                <i className="fab fa-spotify"></i></a>
+                <i className="fab fa-spotify"></i></a> */}
             </div>
           </SideNav>
           <div>
@@ -70,9 +71,12 @@ const NavTabs = () => {
                   <li>
                     <NavLink to="/projects" onClick={() => window.scrollTo(0, 0)} >Projects</NavLink>
                   </li>
-                  <li>
+                  {/* <li>
+                    <NavLink to="/Contact" onClick={() => window.scrollTo(0, 0)} >Contact</NavLink>
+                  </li> */}
+                  {/* <li>
                     <NavLink to="/resume" onClick={() => window.scrollTo(0, 0)}>Resume</NavLink>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
