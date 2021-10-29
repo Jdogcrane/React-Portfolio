@@ -10,7 +10,6 @@ export default function Home() {
         <div className="overlay-space">
         </div>
 
-
         <div id="/" className=" center">
           <div className="container center ">
 
@@ -30,8 +29,8 @@ export default function Home() {
 
         </div>
         <div className="center container">
-          <h1 className="grey-text text-lighten-2 flow-text title space animate__animated animate__fadeInUpBig animate__delay-3s">Hey,<span> I'm</span> <a
-            href="https://github.com/Jdogcrane" className="link"> Josh </a>
+          <h1 className="grey-text text-lighten-2 flow-text title space animate__animated animate__fadeInUpBig animate__delay-3s">Hey,<span> I'm</span> 
+          <a href="https://github.com/Jdogcrane" className="link"> Josh </a>
           </h1>
           <div className="center">
             <br />
@@ -99,7 +98,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Clouds */}
+      {/* Clouds - The Journey Here */}
       <div id="journey">
       </div>
       <section id="parallax-2" className="outer-cloud ">
@@ -108,19 +107,17 @@ export default function Home() {
 
 
         <div className="contain1  animate__animated animate__fadeIn animate__delay-5s ">
-          {/* what lead me here */}
+          {/* Why I'm Here*/}
           <p className="white-text text-lighten-2 flow-text borderBot space title center ">Why I'm Here</p>
           <br />
 
           <div className="contain1  ">
 
             <p className="white-text text-lighten-2 flow-text text ">
-            Using the tools and skills I have learned over the past years and recent months I am looking to develope more sites and apps that can help solve real world problems.
-             I thrive off of fast paced team oriented projects with creative freedom. And with a background in customer service I'm seeking to continue to serve a new community of costumers with a team that I can grow with.</p>
-           
-          
+              Using the tools and skills I have learned over the past years and recent months I am looking to develope more sites and apps that can help solve real world problems.
+              I thrive off of fast paced team oriented projects with creative freedom. And with a background in customer service I'm seeking to continue to serve a new community of costumers with a team that I can grow with.</p>
 
-            {/* where im going */}
+            {/* What I've Done*/}
             <p className="white-text text-lighten-2 flow-text borderBot space title center ">What I've Done</p>
             <br />
             <p className="white-text text-lighten-2 flow-text text ">
@@ -131,7 +128,7 @@ export default function Home() {
                 <br></br>I later graduated as a Full Stack Web Developer specializing in UI-UX design. Near the top of my class and confident with the skills learned I set out to find a workplace that will fit me best.</span></p>
               <br />
             </div>
-            {/* what I know */}
+            {/* What I Learned */}
             <p className="space title center white-text text-lighten-2 flow-text spacing2">What I Learned</p>
             <Row className="">
               <Col
@@ -187,7 +184,7 @@ export default function Home() {
                   <ul>
                     <li><a href="https://cci.uncc.edu/academics/computer-science/undergraduate-programs/courses" target="__blank" className="link white-text ">Computer Science</a></li>
                     <li><a href="https://www.mongodb.com/" target="__blank" className="link white-text ">MongoDB</a></li>
-                  
+
                     <li><a href="https://reactjs.org/" target="__blank" className="link white-text ">React</a></li>
                     <li><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="__blank" className="link white-text ">PWA</a></li>
                   </ul>
@@ -197,7 +194,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* City */}
+        {/* City - Contact */}
       </section>
       <div className="transition2" id="aboutMe">
       </div>

@@ -23,7 +23,7 @@ export default function Projects() {
             m={12}
             l={12}
           >
-            <p>My highlighted projects I've worked on</p>
+            <p>My highlighted projects I've worked on over the past year.</p>
 
             <div className=" space2">
               <i class="fas orange-text animate__animated fa-angle-double-down"></i>
@@ -51,10 +51,12 @@ export default function Projects() {
                   <p className="title center">
                     Covid & Cats
                   </p>
-                  <p className="borderBotG borderTopG spaceSmall"> A website that allows the user to utilize Covid-19 data from across the whole USA to track, total cases,  active cases, recovered and deaths. Using the power of a few API's we allow users to be informed and comforted at the same time by providing cat gif's. My role was mostly set on the design and exploration of the materialize framework while testing and debugging API's.</p>
+                  <p className="orange-text center">
+                  Days To Complete: 4
+                  </p>
+                  <p className="borderBotG borderTopG spaceSmaller"> A website that allows the user to utilize Covid-19 data from across the United States of America to track, total cases, active cases, recovery's and deaths. We used a few API's to allow users to be informed and comforted at the same time by providing cat gif's and covid data. My role was mostly set on the design and exploration of the materialize framework while testing and debugging API's.</p>
                 </div>
-                <div className=" center spaceSmaller ">
-
+                <div className="center spaceSmaller">
                   <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img className="img-tech" src="https://cdn.discordapp.com/attachments/709148993262977068/897938716079845386/5847f5bdcef1014c0b5e489c.png" alt="html5" href="#aboutme" /></a>
                   <a href="https://www.javascript.com/"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897939973729300491/javascript-map-javascript-javascript-icon-with-png-892806.png" alt="JS" href="#aboutme" /></a>
                   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img className="img-tech " src="https://cdn.discordapp.com/attachments/709148993262977068/897941018618499073/pngkey.com-quality-icon-png-6241203.png" alt="CSS" href="#aboutme" /></a>
@@ -81,7 +83,7 @@ export default function Projects() {
           >
             <div className=" ">
               <div className="">
-                <div className="img-area container">
+                <div className="img-area space container">
 
                   <img src="https://cdn.discordapp.com/attachments/709148993262977068/872962866016321536/unknown.png" alt="projectIMG" className="img-box box-3"></img>
                   <img src="https://cdn.discordapp.com/attachments/709148993262977068/872963074288681020/unknown.png" alt="projectIMG" className="img-box box-2"></img>
@@ -105,7 +107,7 @@ export default function Projects() {
           >
             <div className=" ">
               <div className="">
-                <div className="img-area container">
+                <div className="img-area space container">
 
                   <img src="https://cdn.discordapp.com/attachments/709148993262977068/872962721631592549/unknown.png" alt="projectIMG" className="img-box box-3"></img>
                   <img src="https://cdn.discordapp.com/attachments/709148993262977068/872962587082506270/unknown.png" alt="projectIMG" className="img-box box-2"></img>
@@ -127,7 +129,10 @@ export default function Projects() {
                   <p className="title center">
                     Forum Friends
                   </p>
-                  <p className="borderBotG borderTopG spaceSmall"> A social media platform with login auth and stored data in MongoDB built using Materialize framework.</p>
+                  <p className="orange-text center">
+                  Days To Complete: 6
+                  </p>
+                  <p className="borderBotG borderTopG spaceSmaller"> A social media platform for users to be social and connected from around the world without algorithms effecting what they see while being 100% ad free. My role was to use handlebars to build and design the front end user experience while helping debug the backend.</p>
                 </div>
                 <div className=" center spaceSmaller ">
 
@@ -174,7 +179,10 @@ export default function Projects() {
                   <p className="title center">
                     Rapid Resume
                   </p>
-                  <p className="borderBotG borderTopG spaceSmall"> Build a resume stored in mongoDB using, React, Express Servers, Auth and Bulma as the framework.</p>
+                  <p className="orange-text center">
+                    Days To Complete: 7
+                  </p>
+                  <p className="borderBotG borderTopG spaceSmaller"> Login and rapidly deploy your resume with no ads and 100% free from start to finish with no strings attached. My role was the primary UI/UX designer using react and Bulma framework to build out the whole site.</p>
                 </div>
                 <div className=" center spaceSmaller ">
 
@@ -223,7 +231,7 @@ export default function Projects() {
           >
             <div className=" ">
               <div className="">
-                <div className="img-area container">
+                <div className="img-area space container">
                   <img src="https://cdn.discordapp.com/attachments/709148993262977068/872963637239762995/unknown.png" alt="projectIMG" className="img-box box-3"></img>
                   <img src="https://cdn.discordapp.com/attachments/709148993262977068/872964035400830976/unknown.png" alt="projectIMG" className="img-box box-2"></img>
                   <img src="https://cdn.discordapp.com/attachments/709148993262977068/872963710736556042/chrome_LojRghipQe.jpg" alt="projectIMG" className="img-box box-1"></img>
