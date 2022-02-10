@@ -23,7 +23,7 @@ export default function Projects() {
             m={12}
             l={12}
           >
-            <p>My highlighted projects I've worked on over the past year.</p>
+            <p>My highlighted projects I've worked on.</p>
 
             <div className=" space2">
               <i class="fas orange-text animate__animated fa-angle-double-down"></i>
