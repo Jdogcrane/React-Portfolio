@@ -1,8 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Row, Col } from 'react-materialize';
 import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom';
 export default function Home() {
+
+
+  const [avatar_url, setAvatar] = useState('');
+  const [bio, setBio] = useState('');
+  const [hireable, setHireable] = useState('');
+  useEffect(() => {
+    fetch('https://api.github.com/users/jdogcrane')
+      .then(res => res.json())
+      .then(data => {
+        setData(data);
+      })
+  }, []);
+  const setData = ({ avatar_url, hireable, bio }) => {
+    setAvatar(avatar_url);
+    setBio(bio);
+    if (hireable) {
+      hireable = "Not Looking for work";
+      var element = document.getElementById("bannerStatus");
+      element.classList.remove("pulse");
+      element.classList.remove("green");
+      element.classList.add("red");
+    } else {
+      hireable = "Open to Work";
+    }
+    setHireable(hireable);
+  }
   return (
     <>
       {/* Space */}
@@ -14,7 +40,9 @@ export default function Home() {
           <div className="container center ">
 
             <div className="contain animate__animated animate__backInUp  ">
-              <img className="me circle z-depth-3 space1" src="https://cdn.discordapp.com/attachments/709148993262977068/870349043782537236/me.png" alt="me" href="#aboutme" />
+              <img className="me circle z-depth-3 space1" src={avatar_url} alt="me" href="#aboutme" />
+              <p id="bannerStatus" className='meBanner text-lighten-2 flow-text pulse green'>{hireable}</p>
+              <p id="bannerStatus" className='meBanner text-lighten-2 flow-text pulse green'>{hireable}</p>
             </div>
             <div className="center ">
 
@@ -24,16 +52,17 @@ export default function Home() {
               <a className="animate__animated animate__fadeInUpBig animate__delay-2s btn-floating spacing1"
                 href="https://www.linkedin.com/in/joshua-crane-911532210/" rel="noreferrer" target="_blank">
                 <i className="fab fa-linkedin "></i></a>
+
             </div>
           </div>
 
         </div>
         <div className="center container">
-          <h1 className="grey-text text-lighten-2 flow-text title space animate__animated animate__fadeInUpBig animate__delay-3s">Hey,<span> I'm</span> 
-          <a href="https://github.com/Jdogcrane" className="link"> Josh </a>
+          <h1 className="grey-text text-lighten-2 flow-text title space animate__animated animate__fadeInUpBig animate__delay-3s">Hey,<span> I'm</span>
+            <a href="https://github.com/Jdogcrane" className="link"> Josh </a>
           </h1>
           <div className="center">
-            <br />
+
             <p className="grey-text text-lighten-2 animate__animated animate__fadeIn animate__delay-8s flow-text ">Welcome to my personal site designed and built by me for you.</p>
 
           </div>
@@ -105,7 +134,6 @@ export default function Home() {
         <div className="overlay-cloud">
         </div>
 
-
         <div className="contain1  animate__animated animate__fadeIn animate__delay-5s ">
           {/* Why I'm Here*/}
           <p className="white-text text-lighten-2 flow-text borderBot space title center ">Why I'm Here</p>
@@ -170,6 +198,7 @@ export default function Home() {
                     <li><a href="https://www.heroku.com/" target="__blank" className="link white-text">Heroku</a></li>
                     <li><a href="https://www.mysql.com/" target="__blank" className="link white-text">MySQL</a></li>
                     <li><a href="https://nodejs.org/en/" target="__blank" className="link white-text">Node</a></li>
+                    <li><a href="https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers" target="__blank" className="link white-text">Java</a></li>
                   </ul>
                 </div>
               </Col>
@@ -202,7 +231,11 @@ export default function Home() {
       <section id="parallax-3" className="outer-city">
         <div className="overlay-city">
         </div>
-        <div className=" contain1 animate__animated animate__fadeIn animate__delay-5s " id="contact">
+        <div className=" contain1 animate__animated animate__fadeIn " id="contact">
+
+          <div>
+            <p className=" center white-text text-lighten-2 flow-text ">Status: {bio}</p>
+          </div>
           <h1 className="white-text center text-lighten-2 flow-text title space "> Contact <a
             href="https://www.linkedin.com/in/joshua-crane-911532210/" className="link white-text"> Me </a>
             <br />
@@ -211,10 +244,11 @@ export default function Home() {
             <span className="animate__animated animate__fadeIn animate__delay-2s animate__infinite"> .</span>
             <br />
             <span className="animate__animated animate__fadeIn animate__delay-3s animate__infinite"> .</span></h1>
-          <form id="javascript_form" className=" space container messenger">
+          <form id="javascript_form" className=" container messenger">
 
             <div className=" borderMsg center ">
 
+              <input type="text" name="email" placeholder="Email" />
               <input type="text" name="subject" placeholder="Subject" />
               <textarea name="text" placeholder="Message" className="spacing normalText"></textarea>
 
@@ -236,4 +270,6 @@ export default function Home() {
       </section>
     </>
   );
+
+
 }

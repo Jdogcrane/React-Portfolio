@@ -6,61 +6,89 @@
 }
 
 body {
-    font: 13px/1.231 arial,helvetica,clean,sans-serif;
+    font: 13px/1.231 arial, helvetica, clean, sans-serif;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #f9fcff;
-background-image: linear-gradient(160deg, #3b3b3b 0%, #dee4ea 74%);
+    background-image: linear-gradient(160deg, #3b3b3b 0%, #dee4ea 74%);
     text-align: unset;
     font-weight: lighter;
     scroll-behavior: smooth;
     transition: 200ms;
 }
 
+/* space */
+
 #parallax-1 {
-    background: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80);
+    background: url(./img/photo-1475274047050-1d0c0975c63e.avif);
     background-attachment: fixed;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100rem;
+    height: fit-content;
+    padding-bottom: 200px;
 }
 
-/* https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260 City */
+/* clouds */
 
 #parallax-2 {
-    background: url(https://images.pexels.com/photos/2114014/pexels-photo-2114014.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background: url(./img/pexels-photo-2114014.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
-    height: 110rem;
+    height: fit-content;
+    padding-bottom: 200px;
 }
 
+/* city */
+
 #parallax-3 {
-    background: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background: url(./img/pexels-photo-325185.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
-    height: 100rem;
+    padding-bottom: 200px;
+    height: fit-content;
 }
 
 .shift-parallax-1 {
     height: 10rem;
 }
 
+.paddingRound1 {
+    padding: 5vh;
+    border-radius: 10px;
+}
+
+embed {
+    width: 55%;
+    height: 80%;
+}
+
+.resume {
+    height: 100%;
+}
+
 .me {
-    max-width: 150px;
+    max-width: 20vw;
+    min-width: 15rem;
     border: solid 1px black;
     background: -webkit-linear-gradient(left, #00000085, #700f548e);
 }
 
-.titleSmall {
-    display: none !important;
-    font-size: x-large;
+.meBanner {
+    position: absolute; 
+    top: 200px; 
+    right:30%; 
+    background-color: rgb(56, 133, 28);
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 10px;
+    padding: 5px;
 }
+
 
 .titleBig {
     font-size: x-large;
@@ -75,7 +103,7 @@ background-image: linear-gradient(160deg, #3b3b3b 0%, #dee4ea 74%);
 .background-color {
     background: rgba(0, 0, 0, 0.25);
     box-shadow: rgba(0, 0, 0, 0.4) 0rem 0rem 10px;
-    
+
 }
 
 .collapsible {
@@ -95,9 +123,7 @@ background-image: linear-gradient(160deg, #3b3b3b 0%, #dee4ea 74%);
     height: 20rem;
 }
 
-.nav ul a:active {
- 
-}
+.nav ul a:active {}
 
 nav ul a:hover {
     color: #ff9800;
@@ -236,6 +262,8 @@ h2 {
     pointer-events: stroke;
     transition: 100ms;
     cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .link:hover {
@@ -545,6 +573,7 @@ h2 {
 }
 
 .borderRoundG {
+    display:inline-block;
     padding: 1rem;
     border: solid 1px;
     border-radius: 10px;
@@ -564,6 +593,16 @@ h2 {
     position: relative;
 }
 
+ .overlay-password {
+    background: url(./img/photo-1475274047050-1d0c0975c63e.avif);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100rem;
+    z-index: 1;
+}
+
 .outer-space .overlay-space {
     display: block;
     position: absolute;
@@ -573,9 +612,11 @@ h2 {
     opacity: 0.7;
     z-index: 0;
 }
+
 .outer-cloud {
     position: relative;
 }
+
 .outer-cloud .overlay-cloud {
     display: block;
     position: absolute;
@@ -615,6 +656,9 @@ h2 {
     z-index: 999;
 }
 
+.hireable {
+    color: red
+}
 
 .messenger {
     background: rgb(0, 0, 0);
@@ -627,14 +671,17 @@ input {
     color: white;
 }
 
+.holderPass::-webkit-input-placeholder {
+    color: #ffffff
+ }
+
 textarea {
     color: white;
     border-radius: 1rem;
     padding: 1rem;
-    min-width: 500px;
     min-height: 10rem;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 100%;
+    max-height: 10rem;
 }
 
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
@@ -658,32 +705,74 @@ textarea:focus-visible {
     background-image: linear-gradient(315deg, #6e6e6e8a 0%, #64646488 74%);
 }
 
+.resume {
+       
+    overflow: hidden !important;
+}
+
+.titleSmall {
+    display: none !important;
+    font-size: x-large;
+}
+
+.text-flow {
+    font-size: 0.8vw;
+}
+
+@media only screen and (max-width: 1400px) {
+    .meBanner {
+        position: absolute; 
+        top: 175px; 
+        right:25%; 
+        background-color: rgb(56, 133, 28);
+        border: 1px solid rgb(34, 34, 34);
+        border-radius: 10px;
+        padding: 5px;
+    }
+}
+
 
 @media only screen and (max-width: 994px) {
+
+    .meBanner {
+        position: absolute; 
+        top: 150px; 
+        right:25%; 
+        background-color: rgb(56, 133, 28);
+        border: 1px solid rgb(34, 34, 34);
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .text-flow {
+        font-size: 1vw;
+    }
     .titleBig {
         display: none;
     }
+
     .titleSmall {
         display: inline-block !important;
     }
+
     html, body {
         overflow-x: hidden;
     }
+
     #parallax-3 {
-        height: 70rem;
+        height: fit-content;
     }
+
     #parallax-2 {
-        height: 115rem !important;
+        height: fit-content;
     }
-    textarea {
-        color: white;
-        border-radius: 1rem;
-        padding: 1rem;
-        min-width: 240px !important;
-        min-height: 10rem;
-        max-width: 250px !important;
-        max-height: 200px;
+
+    embed {
+        overflow: hidden !important;
+    
     }
+    
+
 }
 
 /* Text adjustment for smaller media in "what I learned" */
@@ -692,11 +781,31 @@ textarea:focus-visible {
     .flow-text-small {
         font-size: 1.0rem !important;
     }
+
+    .meBanner {
+        position: absolute; 
+        top: 150px; 
+        right:15%; 
+        background-color: rgb(56, 133, 28);
+        border: 1px solid rgb(34, 34, 34);
+        border-radius: 10px;
+        padding: 5px;
+    }
 }
 
 @media only screen and (max-width: 445px) {
     .flow-text-small {
         font-size: 1rem !important;
+    }
+
+    .meBanner {
+        position: absolute; 
+        top: 150px; 
+        right:5%; 
+        background-color: rgb(56, 133, 28);
+        border: 1px solid rgb(34, 34, 34);
+        border-radius: 10px;
+        padding: 5px;
     }
 }
 
@@ -711,4 +820,3 @@ textarea:focus-visible {
         font-size: .71rem !important;
     }
 }
-

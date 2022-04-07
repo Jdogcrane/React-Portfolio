@@ -32,9 +32,10 @@
   <div id="root"></div>
 
 </body>
+<!-- Materialize Framework scripts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script>
 
+<script>
   // Allows nav bar to slide in and out depending on direction user moves in
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function () {
@@ -46,7 +47,7 @@
     }
     prevScrollpos = currentScrollPos;
   }
-
+  
 </script>
 
 <script>
@@ -91,8 +92,10 @@
 
     var subject = document.querySelector("#" + form_id_js + " [name='subject']").value;
     var message = document.querySelector("#" + form_id_js + " [name='text']").value;
+    var email = document.querySelector("#" + form_id_js + " [name='email']").value;
+    data_js['email'] = email;
     data_js['subject'] = subject;
-    data_js['text'] = message;
+    data_js['text'] = `${message} \n Email: ${email}`;
     var params = toParams(data_js);
 
     request.open("POST", "https://postmail.invotes.com/send", true);

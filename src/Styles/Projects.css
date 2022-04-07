@@ -1,46 +1,53 @@
 /* build animation for images that are stacked and on fo:active unstack and show */
 #parallax-header {
   background: #02010575;
-  background-image: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80);
+  background: url(./img/photo-1475274047050-1d0c0975c63e.avif);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
-  height: 50rem;
+  height: 60vh;
+}
+
+#parallax-pro0 {
+  background: #02010575;
+  background: url(./img/photo-1475274047050-1d0c0975c63e.avif);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
 }
 
 #parallax-pro1 {
   background: #02010575;
-  background-image: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80);
+  background: url(./img/photo-1475274047050-1d0c0975c63e.avif);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
-  height: 50rem;
+  height: fit-content;
 }
 
 #parallax-pro2 {
   background: #02010575;
-  background-image: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80);
+  background: url(./img/photo-1475274047050-1d0c0975c63e.avif);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
-  height: 50rem;
+  height: fit-content;
 }
 
 #parallax-pro3 {
   background: #02010575;
-  background-image: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80);
+  background: url(./img/photo-1475274047050-1d0c0975c63e.avif);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
-  height: 70rem;
+  height: fit-content;
 }
 
 .wrapper-project {
@@ -52,15 +59,19 @@
 
 .img-area {
   position: relative;
-  height: 400px;
-  width: 600px;
+  height: 40vw;
+  width: 30vw;
+}
+
+.img-box-small {
+  display: none;
 }
 
 .img-box {
   padding: 10px;
   z-index: 200px;
   background-color: rgba(0, 0, 0, 0.466);
-  max-width: 600px;
+  max-width: 30vw;
   position: absolute;
   top: 0;
   left: 0;
@@ -72,33 +83,33 @@
 .img-area:active .box-1 {
   top: 0;
   left: 0;
-  width: 600px;
+  width: 30vw;
 }
 
 .img-area:active .box-2 {
-  top: -300px;
-  width: 600px;
+  top: -15vw;
+  width: 30vw;
 }
 
 .img-area:active .box-3 {
-  top: 300px;
-  width: 600px;
+  top: 15vw;
+  width: 30vw;
 }
 
 .img-area:hover .box-1 {
   top: 0;
   left: 0;
-  width: 600px;
+  width: 30vw;
 }
 
 .img-area:hover .box-2 {
-  top: 300px;
-  width: 600px;
+  top: 15vw;
+  width: 30vw;
 }
 
 .img-area:hover .box-3 {
-  top: -300px;
-  width: 600px;
+  top: -15vw;
+  width: 30vw;
 }
 
 .img-area img:nth-child(1) {
@@ -120,7 +131,13 @@
 
 .img-tech {
   width: 55px;
+  margin-left: 4px;
 }
+
+.mobileImg {
+  max-width: 20vw;
+}
+
 /* .outer-pro1 {
   position: relative;
 }
@@ -134,3 +151,71 @@
   opacity: 0.7;
   top: 0;
 } */
+
+
+@media only screen and (max-width: 994px) {
+
+  #parallax-pro3 {
+    height: fit-content;
+  }
+
+  #parallax-pro2 {
+    height: fit-content;
+  }
+
+  #parallax-pro1 {
+    height: fit-content;
+  }
+
+  #parallax-pro0 {
+    height: fit-content;
+  }
+
+  .img-box-small {
+    display: inline-block;
+  }
+
+  .mobileImg {
+    min-width: 80vw;
+  }
+
+  .img-box {
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    size: 0px;
+  }
+
+  .img-area:active .box-1 {
+    top: 0;
+    left: 0;
+    width: 40vw;
+  }
+
+  .img-area:active .box-2 {
+    top: -20vw;
+    width: 40vw;
+  }
+
+  .img-area:active .box-3 {
+    top: 20vw;
+    width: 40vw;
+  }
+
+  .img-area:hover .box-1 {
+    top: 0;
+    left: 0;
+    width: 40vw;
+  }
+
+  .img-area:hover .box-2 {
+    top: 20vw;
+    width: 40vw;
+  }
+
+  .img-area:hover .box-3 {
+    top: -20vw;
+    width: 40vw;
+  }
+}

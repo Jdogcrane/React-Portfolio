@@ -6,8 +6,8 @@ const NavTabs = () => {
 
   return (
     <div>
-      
-      
+
+
       <div className="navbar-fixed " id="navbar">
         <nav className="nav ">
           <SideNav
@@ -21,19 +21,23 @@ const NavTabs = () => {
               user={{
                 background: 'https://cdn.discordapp.com/attachments/709148993262977068/870349048568242236/backdrop.jpg',
                 email: 'Jdogcrane@gmail.com',
-                image: 'https://cdn.discordapp.com/attachments/709148993262977068/870349043782537236/me.png',
+                image: 'https://avatars.githubusercontent.com/u/82119489?v=4',
                 name: 'Joshua Crane'
               }}
               userView
             />
             <SideNavItem
-             className="black"
+              className="black"
             >
               <NavLink to="/" onClick={() => window.scrollTo(0, 0)}>Home</NavLink>
             </SideNavItem>
             <SideNavItem divider />
             <SideNavItem>
               <NavLink to="/projects" onClick={() => window.scrollTo(0, 0)} >Projects</NavLink>
+            </SideNavItem>
+            <SideNavItem divider />
+            <SideNavItem>
+              <NavLink to="/resume" onClick={() => window.scrollTo(0, 0)} >Resume</NavLink>
             </SideNavItem>
             <SideNavItem divider />
             {/* <SideNavItem divider />
@@ -71,12 +75,9 @@ const NavTabs = () => {
                   <li>
                     <NavLink to="/projects" onClick={() => window.scrollTo(0, 0)} >Projects</NavLink>
                   </li>
-                  {/* <li>
-                    <NavLink to="/Contact" onClick={() => window.scrollTo(0, 0)} >Contact</NavLink>
-                  </li> */}
-                  {/* <li>
+                  <li>
                     <NavLink to="/resume" onClick={() => window.scrollTo(0, 0)}>Resume</NavLink>
-                  </li> */}
+                  </li>
                 </ul>
               </div>
             </div>
