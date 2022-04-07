@@ -9,7 +9,7 @@ export default function Resume() {
 		e.preventDefault()
 		let password = document.getElementById("password");
 		let overlay = document.getElementById("overlay");
-		if (password.value === "password") {
+		if (password.value === "fasttrack") {
 			overlay.style.display = "none";
 		}
 		password.value = "";
