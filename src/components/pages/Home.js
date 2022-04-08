@@ -21,7 +21,6 @@ export default function Home() {
     if (hireable) {
       hireable = "Not Looking for work";
       var element = document.getElementById("bannerStatus");
-      element.classList.remove("pulse");
       element.classList.remove("green");
       element.classList.add("red");
     } else {
@@ -41,8 +40,7 @@ export default function Home() {
 
             <div className="contain animate__animated animate__backInUp  ">
               <img className="me circle z-depth-3 space1" src={avatar_url} alt="me" href="#aboutme" />
-              <p id="bannerStatus" className='meBanner text-lighten-2 flow-text pulse green'>{hireable}</p>
-              <p id="bannerStatus" className='meBanner text-lighten-2 flow-text pulse green'>{hireable}</p>
+              <p id="bannerStatus" className='meBanner text-lighten-2 flow-text green'>{hireable}</p>
             </div>
             <div className="center ">
 
@@ -247,7 +245,6 @@ export default function Home() {
           <form id="javascript_form" className=" container messenger">
 
             <div className=" borderMsg center ">
-
               <input type="text" name="email" placeholder="Email" />
               <input type="text" name="subject" placeholder="Subject" />
               <textarea name="text" placeholder="Message" className="spacing normalText"></textarea>
@@ -256,6 +253,7 @@ export default function Home() {
               <input type="submit" id="js_send" value="Send" className="btn spacing2 white black-text" />
               <p className="white-text">Powered by <a href="https://postmail.invotes.com" target="__blank">PostMail</a></p>
             </div>
+
             <div className="">
               <ul>
                 <li><a className="link borderBotGNo spacing2" href="Joshua.crane.me@gmail.com" target="__blank">Email</a></li>
