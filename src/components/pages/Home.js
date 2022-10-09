@@ -140,14 +140,14 @@ export default function Home() {
           <div className="contain1  ">
 
             <p className="white-text text-lighten-2 flow-text text ">
-              Using the tools and skills I have learned over the past years and recent months I am looking to develope more sites and apps that can help solve real world problems.
-              I thrive off of fast paced team oriented projects with creative freedom. And with a background in customer service I'm seeking to continue to serve a new community of costumers with a team that I can grow with.</p>
+            Using the tools and skills I have learned over the past years and recent months I am looking to develop more sites and apps that can help solve real-world problems.
+              I thrive off of fast-paced team oriented projects with creative freedom. And with a background in customer service, I'm seeking to continue to serve a new community of customers with a team that I can grow with.</p>
 
             {/* What I've Done*/}
             <p className="white-text text-lighten-2 flow-text borderBot space title center ">What I've Done</p>
             <br />
             <p className="white-text text-lighten-2 flow-text text ">
-              Over the past year I have self taught myself to learn many of the fundamentals of front end work. I decided to further develope my skills by attending a program at <a
+            Over the past year, I have self-taught myself to learn many of the fundamentals of front-end work. I decided to further develop my skills by attending a program at<a
                 href="https://www.uncc.edu/" className="link borderBotBNo white-text italic"> UNCC </a> <span className="italic">- 8/1/21.</span> </p>
             <div>
               <p className="white-text text-lighten-2 flow-text "><span className="">
