@@ -1,35 +1,12 @@
 
+My personal portfolio designed from the ground up by me for you. Built using react and brought to life by many new technologies I learned along the way.
 
+Clone and run commands in terminal: 
 
-<h1 style="text-align: center;"><a href="https://joshua-crane.herokuapp.com/">[Portfolio v.2.0]</a></h1>
+npm i
 
+npm run start
 
-<!-- [[Site-Preview]](#Site-Preview) -->
+<!-- <h1 style="text-align: center;"><a href="https://joshua-crane.herokuapp.com/">[Portfolio v.2.0]</a></h1>
+<!--
 
-<!-- ## General Overview: 
-
-<p style="font-family:georgia">
-My personal portfolio site designed and built by me for you
-<p> -->
-
-<!-- 
-## Table of Contents:
-
-- [Home](#Home)
-- [Projects](#Projects)
-- [Resume](#Resume)
-- [License](#License)
-
-# Home
-* Fully built using CSS and Materialize FrameWork
-* Three parallax and a gradient overlay for each to help fade transitions
-* Animations powered by Animate.style Framework
-
-# Projects
-* Fully built using CSS and Materialize FrameWork
-
-# Resume
-* Fully built using CSS and Materialize FrameWork
-
-# License
-*  -->
